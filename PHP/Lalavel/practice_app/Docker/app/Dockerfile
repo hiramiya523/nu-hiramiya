@@ -17,7 +17,7 @@ RUN apt-get update && \
         intl \
         bcmath
 
-COPY ./php.ini /usr/local/etc/php/php.ini
+COPY ./Docker/app/php.ini /usr/local/etc/php/php.ini
 
 # マルチステージビルドでcomposerインストール
 # COPY --from=composer /usr/bin/composer /usr/bin/composer

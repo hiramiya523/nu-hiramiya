@@ -1,5 +1,8 @@
 # Laravelの開発環境を作る
 FROM php:8.0-fpm
+
+ENV TZ Asia/Tokyo
+
 RUN apt-get update && \ 
     apt-get install -y  --no-install-recommends \
         vim \
@@ -14,6 +17,8 @@ RUN apt-get update && \
         intl \
         bcmath
 
+COPY ./php.ini /usr/local/etc/php/php.ini
+
 # マルチステージビルドでcomposerインストール
 # COPY --from=composer /usr/bin/composer /usr/bin/composer
 COPY --from=composer:2.3.9 /usr/bin/composer /usr/bin/composer
@@ -21,6 +26,11 @@ COPY --from=composer:2.3.9 /usr/bin/composer /usr/bin/composer
 # TODO 自動でプロジェクト作成まで持っていけないか？
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
+WORKDIR /app
+
+#######################
+# 操作
+#######################
 # 単独実行
 # docker build -t php-8.0:1.0 .
 # docker run -itd php-8.0:1.0 imageID

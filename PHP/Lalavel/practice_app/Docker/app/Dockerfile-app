@@ -11,14 +11,17 @@ RUN apt-get update && \
         libicu-dev \
         libonig-dev \
         libzip-dev \
-        git && \
-    apt-get clean &&\
+        git && \    
+    apt-get clean && \
+    docker-php-ext-enable xdebug && \
     docker-php-ext-install \
         pdo_mysql \
         intl \
-        bcmath
+        bcmath && \
+        # PHP Extension Community Library
+        pecl install xdebug
 
-COPY ./Docker/app/php.ini /usr/local/etc/php/php.ini
+COPY ./php.ini /usr/local/etc/php/php.ini
 
 # マルチステージビルドでcomposerインストール
 # COPY --from=composer /usr/bin/composer /usr/bin/composer

@@ -4,7 +4,8 @@ services:
     # ビルド設定
     build:
       context: ./Docker/app/
-      dockerfile: ./Dockerfile-app
+      dockerfile: ./Dockerfile-app  
+    container_name: nu-app
     volumes: 
       - ./src/:/app
   
@@ -14,6 +15,7 @@ services:
       context: ./Docker/web/
       # 実行dockerfile
       dockerfile: Dockerfile-web
+    container_name: nu-web
     ports:
       - 18080:80
     depends_on:

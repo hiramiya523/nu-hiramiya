@@ -4,5 +4,5 @@ FROM nginx:1.20
 ENV TZ Asia/Tokyo
 COPY ./default.conf /etc/nginx/conf.d/default.conf
 
-# nginxはデフォルトでデーモン起動となるので、それを防いでいる
+# nginxはデフォルトでデーモン起動となるので、それを防いでいる。
 CMD ["nginx", "-g", "daemon off;"]

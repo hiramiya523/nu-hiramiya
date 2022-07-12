@@ -4,6 +4,7 @@ FROM php:8.0-fpm
 ENV TZ Asia/Tokyo
 
 RUN apt-get update && \ 
+    # --no-install-recommends 必要な機能のみinstall 
     apt-get install -y  --no-install-recommends \
         vim \
         unzip \

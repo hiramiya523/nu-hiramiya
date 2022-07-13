@@ -32,3 +32,5 @@ services:
 # docker compose up -d 
 
 # docker compose down
+
+# docker compose exec app bash

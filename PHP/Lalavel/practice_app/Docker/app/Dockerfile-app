@@ -19,13 +19,17 @@ RUN apt-get update && \
         intl \
         bcmath && \
         # PHP Extension Community Library
-        pecl install xdebug
+    pecl install xdebug
 
 COPY ./php.ini /usr/local/etc/php/php.ini
 
 # マルチステージビルドでcomposerインストール
 # COPY --from=composer /usr/bin/composer /usr/bin/composer
 COPY --from=composer:2.3.9 /usr/bin/composer /usr/bin/composer
+
+RUN alias ll='ls -al --color'
+
+# RUN composer create-project laravel/laravel:^8.0 example-app
 
 # TODO 自動でプロジェクト作成まで持っていけないか？
 ENV COMPOSER_ALLOW_SUPERUSER=1

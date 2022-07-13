@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  web:
+    build: ./
+    ports:
+      - 8081:80
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./html:/var/www/html
+      - ./php/php.ini:/usr/local/etc/php/php.ini

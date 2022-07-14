@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:8
+    container_name: my_db
+    # コンテナ停止時に再起動(手動停止を除く)
+    restart: unless-stopped
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=test_db
+      - MYSQL_USER=test_user
+      - MYSQL_PASSWORD=test_password
+    volumes:
+      - ./db/mysql:/var/lib/mysql
+      - ./db/my.conf:/etc/mysql/conf.d/my.cnf
+    ports:
+      - "4306:3306"
+
+  app:
+    container_name: my_app
+    build:
+      context: ./app
+      dockerfile: Dockerfile-app
+    ports:
+        - '18080:80'
+    volumes:
+      - ./src:/var/www/my_app
+      - ./apache/default.conf:/etc/apache2/sites-enabled/000-default.conf
+    depends_on:
+      - db

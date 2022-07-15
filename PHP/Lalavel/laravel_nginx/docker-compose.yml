@@ -21,15 +21,20 @@ services:
     build:
       context: ./app
       dockerfile: Dockerfile-app
-    ports:
-        - 18080:80
+    
     volumes:
       - ./src:/var/www/my_app
       - ./apache/default.conf:/etc/apache2/sites-enabled/000-default.conf
     depends_on:
       - db
 
-  web:
+  web:  
+    container_name: my_web
     build:
       context: ./web
       dockerfile: Dockerfile-web
+    tty: true
+    ports:
+      - 18080:80
+    depends_on:
+      - app

@@ -1,0 +1,16 @@
+# nginxは、偶数が安定バージョン
+FROM nginx:1.20
+
+RUN apt update && \
+    apt install -y  --no-install-recommends\
+    vim
+
+ENV TZ Asia/Tokyo
+COPY ./default.conf /etc/nginx/conf.d/default.conf
+
+# nginxはデフォルトでデーモン起動となるので、それを防いでいる。
+CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
+
+# nginx -t
+# nignx -s reload
+# vim /etc/nginx/conf.d/default.conf

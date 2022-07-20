@@ -21,10 +21,9 @@ services:
     build:
       context: ./app
       dockerfile: Dockerfile-app
-    
     volumes:
       - ./src:/var/www/my_app
-      - ./apache/default.conf:/etc/apache2/sites-enabled/000-default.conf
+      - ./app/log:/var/log
     depends_on:
       - db
 
@@ -33,6 +32,8 @@ services:
     build:
       context: ./web
       dockerfile: Dockerfile-web
+    volumes:
+      - ./src:/usr/share/nginx/html
     tty: true
     ports:
       - 18080:80

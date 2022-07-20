@@ -30,3 +30,16 @@ ini_set("session.use_only_cookies", 1);
 
 // idの長さを指定
 ini_set("session.sid_length", 64);
+
+// セッションファイルの有効期間(86400は１日)
+ini_set("session.gc_maxlifetime", "86400");
+// 有効期間超過時、session.gc_probability / session.gc_divisor の確立でGCが動作
+ini_set("session.gc_probability", 1);
+ini_set("session.gc_divisor", 1);
+
+/**
+ * セッションファイルの保存先
+ * デフォルト設定だと、同一サーバ内すべてのアプリケーションが同じディレクトリに保存してしまう。
+ * 他アプリケーションのセッションGCで意図せずファイルが削除されてしまうので、アプリケーション固有の場所に設定する。
+ * 必ず、Apacheのドキュメントルート外か、htaccessファイルでアクセス不可能なディレクトリを指定すること。
+ */

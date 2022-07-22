@@ -1,4 +1,6 @@
 version: '3.8'
+# baindマウントと、volumeマウントの違いを意識しよう
+
 services:
   db:
     image: mysql:8
@@ -11,26 +13,26 @@ services:
       - MYSQL_USER=test_user
       - MYSQL_PASSWORD=test_password
     volumes:
-      - ./db/mysql:/var/lib/mysql
-      - ./db/my.conf:/etc/mysql/conf.d/my.cnf
+      - ./docker/db/data:/var/lib/mysql
+      - ./docker/db/my.conf:/etc/mysql/conf.d/my.cnf
     ports:
       - 4306:3306
 
   app:
     container_name: my_app
     build:
-      context: ./app
+      context: ./docker/app
       dockerfile: Dockerfile-app
     volumes:
       - ./src:/var/www/my_app
-      - ./app/log:/var/log
+      - ./docker/app/log:/var/log
     depends_on:
       - db
 
   web:  
     container_name: my_web
     build:
-      context: ./web
+      context: ./docker/web
       dockerfile: Dockerfile-web
     volumes:
       - ./src:/usr/share/nginx/html

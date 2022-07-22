@@ -43,3 +43,14 @@ ini_set("session.gc_divisor", 1);
  * 他アプリケーションのセッションGCで意図せずファイルが削除されてしまうので、アプリケーション固有の場所に設定する。
  * 必ず、Apacheのドキュメントルート外か、htaccessファイルでアクセス不可能なディレクトリを指定すること。
  */
+// ini_set("session.save_path", __DIR__ . /../var/sessions);
+
+// PHPが自動生成するCookieのパラメータ
+session_set_cookie_params([
+	'lifetime' => 0,// Cookieの有効期限、0だとブラウザが閉じるまで。アプリケーションの要件次第だが0推奨。
+	'path' => "/", // Cookieが有効なパス。アプリケーションの要件次第だが、サービスのトップディレクトリにしておけばよい。ドメイン内に1サービスであれば "/" を指定。
+	'domain' => null, // ブラウザがcookieを送信するドメイン. nullだとcookieが発行されたドメインのみ。nullを推奨
+	'secure' => false, // https通信の場合のみブラウザにCookieを送信する。true推奨。
+	'httponly' => true, // trueだとhttp(s)のみがCookieにアクセスできる。Javascript
+
+]);

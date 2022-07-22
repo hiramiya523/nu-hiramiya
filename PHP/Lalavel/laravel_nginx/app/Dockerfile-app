@@ -26,5 +26,5 @@ COPY --from=composer:2.3.9 /usr/bin/composer /usr/bin/composer
 
 COPY ./php.ini /usr/local/etc/php/php.ini
 
-RUN mkdir -pm 660 /etc/php/session &&\
+RUN mkdir -pm 777 /etc/php/session &&\
     echo -e "\n alias ll='ls -la --color'\n" >> /root/.bashrc

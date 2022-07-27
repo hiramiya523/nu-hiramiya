@@ -33,3 +33,16 @@ docker run --name nginx_container -itd -p 8180:80 nginx:1.0
 ## nginx
 ### 構文チェック
 nginx -t
+
+
+## composer 
+初期化
+composer init
+
+phpunitインストール
+composer require phpunit/phpunit --dev
+
+
+list
+composer show -i
+

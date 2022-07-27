@@ -19,3 +19,4 @@ services:
       - app # php-fpmをconfで実施しているため
     volumes:
       - ./src:/app
+      - ./docker/web/logs:/var/log/nginx/ 

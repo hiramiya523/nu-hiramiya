@@ -22,4 +22,4 @@ COPY --from=composer:2.0 /usr/bin/composer /usr/bin/composer
 RUN mkdir -pm 777 /etc/php/session && \
     echo -e "\n alias ll='ls -la --color\n'" >> /root/.bashrc
 
-WORKDIR /app
+WORKDIR /var/www/app

@@ -17,8 +17,19 @@ docker builder prune
 ・上記すべて削除
 docker system prune
 
+### alpine コンテナに入る
+bash を ashにする
+
 ### dockerfile単体で起動
 docker build . -t {image_name}
 docker run -it -d {image_id} /bin/bash
 docker exec -it {container_id} /bin/bash
 
+#### nginx単体
+docker build . -t nginx:1_0
+docker run --name nginx_container -itd -p 8180:80 nginx:1.0
+ -dはデタッチドモード
+
+## nginx
+### 構文チェック
+nginx -t

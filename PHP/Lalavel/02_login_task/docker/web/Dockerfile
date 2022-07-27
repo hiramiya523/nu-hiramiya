@@ -9,4 +9,4 @@ ENV TZ Asia/Tokyo
 RUN chmod 755 -R /root
 
 # 空のファイルを送るとコンテナが落ちる
-# COPY ./nginx.conf /etc/nginx/nginx.conf
+COPY ./nginx.conf /etc/nginx/nginx.conf

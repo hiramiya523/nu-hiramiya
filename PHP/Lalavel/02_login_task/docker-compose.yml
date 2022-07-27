@@ -5,6 +5,8 @@ services:
     build:
       context: ./docker/app
       dockerfile: Dockerfile
+    volumes:
+      - ./src:/var/www/app
 
   web:
     container_name: web_container
@@ -15,3 +17,5 @@ services:
       - 18080:80
     depends_on:
       - app # php-fpmをconfで実施しているため
+    volumes:
+      - ./src:/app

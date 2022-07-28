@@ -83,3 +83,5 @@
 2022/07/28 19:59:21 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
 2022/07/28 19:59:21 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
 2022/07/28 19:59:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/28 19:59:21 [notice] 1#1: start worker processes
+2022/07/28 19:59:21 [notice] 1#1: start worker process 32

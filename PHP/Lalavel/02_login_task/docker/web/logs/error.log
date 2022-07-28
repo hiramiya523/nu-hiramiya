@@ -5,3 +5,10 @@
 2022/07/27 19:35:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
 2022/07/27 19:35:54 [notice] 1#1: start worker processes
 2022/07/27 19:35:54 [notice] 1#1: start worker process 32
+2022/07/28 18:48:26 [notice] 1#1: using the "epoll" event method
+2022/07/28 18:48:26 [notice] 1#1: nginx/1.20.2
+2022/07/28 18:48:26 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/07/28 18:48:26 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/07/28 18:48:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/28 18:48:26 [notice] 1#1: start worker processes
+2022/07/28 18:48:26 [notice] 1#1: start worker process 24

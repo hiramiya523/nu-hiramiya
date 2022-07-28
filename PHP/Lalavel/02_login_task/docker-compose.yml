@@ -7,6 +7,8 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./src:/var/www/app
+    depends_on:
+      - db # アプリケーションはdbから値を取得するため。
 
   web:
     container_name: web_container
@@ -20,3 +22,24 @@ services:
     volumes:
       - ./src:/app
       - ./docker/web/logs:/var/log/nginx/ 
+
+  db:
+    container_name: db_container
+    restart: unless-stopped
+    build:
+      context: ./docker/db
+      dockerfile: Dockerfile
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=test_db
+      - MYSQL_USER=test_user
+      - MYSQL_PASSWORD=test_password
+    volumes:
+      - db_store:/var/lib/mysql
+    # mysql8の認証プラグイン。この記述がないと弾かれる。
+    command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - 4306:3306
+
+volumes:
+  db_store:

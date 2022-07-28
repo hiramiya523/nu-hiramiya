@@ -12,3 +12,74 @@
 2022/07/28 18:48:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
 2022/07/28 18:48:26 [notice] 1#1: start worker processes
 2022/07/28 18:48:26 [notice] 1#1: start worker process 24
+2022/07/28 19:11:47 [error] 24#24: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: my_server, request: "GET /login/login_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost:18080"
+2022/07/28 19:12:04 [error] 24#24: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: my_server, request: "GET /login/login_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost:18080"
+2022/07/28 19:12:14 [error] 24#24: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: my_server, request: "GET /login/login_form.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost:18080"
+2022/07/28 19:34:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/28 19:34:32 [notice] 24#24: gracefully shutting down
+2022/07/28 19:34:32 [notice] 24#24: exiting
+2022/07/28 19:34:32 [notice] 24#24: exit
+2022/07/28 19:34:32 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/07/28 19:34:32 [notice] 1#1: worker process 24 exited with code 0
+2022/07/28 19:34:32 [notice] 1#1: exit
+2022/07/28 19:36:36 [notice] 1#1: using the "epoll" event method
+2022/07/28 19:36:36 [notice] 1#1: nginx/1.20.2
+2022/07/28 19:36:36 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/07/28 19:36:36 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/07/28 19:36:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/28 19:36:36 [notice] 1#1: start worker processes
+2022/07/28 19:36:36 [notice] 1#1: start worker process 32
+2022/07/28 19:37:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/28 19:37:08 [notice] 32#32: gracefully shutting down
+2022/07/28 19:37:08 [notice] 32#32: exiting
+2022/07/28 19:37:08 [notice] 32#32: exit
+2022/07/28 19:37:08 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/28 19:37:08 [notice] 1#1: worker process 32 exited with code 0
+2022/07/28 19:37:08 [notice] 1#1: exit
+2022/07/28 19:40:19 [notice] 1#1: using the "epoll" event method
+2022/07/28 19:40:19 [notice] 1#1: nginx/1.20.2
+2022/07/28 19:40:19 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/07/28 19:40:19 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/07/28 19:40:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/28 19:40:19 [notice] 1#1: start worker processes
+2022/07/28 19:40:19 [notice] 1#1: start worker process 32
+2022/07/28 19:41:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/28 19:41:05 [notice] 32#32: gracefully shutting down
+2022/07/28 19:41:05 [notice] 32#32: exiting
+2022/07/28 19:41:05 [notice] 32#32: exit
+2022/07/28 19:41:05 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/28 19:41:05 [notice] 1#1: worker process 32 exited with code 0
+2022/07/28 19:41:05 [notice] 1#1: exit
+2022/07/28 19:41:17 [notice] 1#1: using the "epoll" event method
+2022/07/28 19:41:17 [notice] 1#1: nginx/1.20.2
+2022/07/28 19:41:17 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/07/28 19:41:17 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/07/28 19:41:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/28 19:41:17 [notice] 1#1: start worker processes
+2022/07/28 19:41:17 [notice] 1#1: start worker process 32
+2022/07/28 19:41:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/28 19:41:50 [notice] 32#32: gracefully shutting down
+2022/07/28 19:41:50 [notice] 32#32: exiting
+2022/07/28 19:41:50 [notice] 32#32: exit
+2022/07/28 19:41:51 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/28 19:41:51 [notice] 1#1: worker process 32 exited with code 0
+2022/07/28 19:41:51 [notice] 1#1: exit
+2022/07/28 19:42:43 [notice] 1#1: using the "epoll" event method
+2022/07/28 19:42:43 [notice] 1#1: nginx/1.20.2
+2022/07/28 19:42:43 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/07/28 19:42:43 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/07/28 19:42:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/28 19:42:43 [notice] 1#1: start worker processes
+2022/07/28 19:42:43 [notice] 1#1: start worker process 32
+2022/07/28 19:59:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/28 19:59:15 [notice] 32#32: gracefully shutting down
+2022/07/28 19:59:15 [notice] 32#32: exiting
+2022/07/28 19:59:15 [notice] 32#32: exit
+2022/07/28 19:59:15 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/28 19:59:15 [notice] 1#1: worker process 32 exited with code 0
+2022/07/28 19:59:15 [notice] 1#1: exit
+2022/07/28 19:59:21 [notice] 1#1: using the "epoll" event method
+2022/07/28 19:59:21 [notice] 1#1: nginx/1.20.2
+2022/07/28 19:59:21 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/07/28 19:59:21 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/07/28 19:59:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576

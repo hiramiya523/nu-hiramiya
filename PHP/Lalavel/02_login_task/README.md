@@ -17,6 +17,10 @@ docker builder prune
 ・上記すべて削除
 docker system prune
 
+・volumeの削除
+docker volume ls
+docker volume rm <volume name>
+
 ### alpine コンテナに入る
 bash を ashにする
 
@@ -33,6 +37,8 @@ docker run --name nginx_container -itd -p 8180:80 nginx:1.0
 ## nginx
 ### 構文チェック
 nginx -t
+
+## mysql
 
 
 ## composer 

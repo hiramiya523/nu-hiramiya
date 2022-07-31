@@ -1,5 +1,5 @@
 <?php
-namespace common;
+namespace Common;
 
 class ConstantsDb
 {

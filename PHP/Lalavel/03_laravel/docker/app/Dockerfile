@@ -3,6 +3,8 @@ FROM php:8.0-fpm
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
             git \ 
+            vi \
+            less \
             unzip \ 
             libzip-dev \
             libicu-dev \

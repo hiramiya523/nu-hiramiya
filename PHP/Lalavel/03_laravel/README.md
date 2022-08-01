@@ -38,6 +38,7 @@ docker run --name nginx_container -itd -p 8180:80 nginx:1.0
 ### 構文チェック
 nginx -t
 
+nginx -s reload
 ## mysql
 
 
@@ -71,3 +72,9 @@ larable new quick-laravel
 
 composerからの場合
 conposer create-project laravel/laravel quick-laravel
+
+storae ディレクトリの権限が毎回ないので、
+chmod 707 -R storage
+
+### Controller
+php artisan make:controller HelloController

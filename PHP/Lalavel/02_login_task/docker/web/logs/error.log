@@ -233,3 +233,17 @@
 2022/07/31 23:16:37 [error] 32#32: *14 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.26.0.1, server: my_server, request: "POST /service/login.php HTTP/1.1", upstream: "fastcgi://172.26.0.3:9000", host: "localhost:18080", referrer: "http://localhost:18080/login/login_form.php"
 2022/07/31 23:16:43 [error] 32#32: *14 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.26.0.1, server: my_server, request: "POST /service/login.php HTTP/1.1", upstream: "fastcgi://172.26.0.3:9000", host: "localhost:18080", referrer: "http://localhost:18080/login/login_form.php"
 2022/07/31 23:17:56 [error] 32#32: *14 FastCGI sent in stderr: "Unable to open primary script: /var/www/app/public/service/login.php (No such file or directory)" while reading response header from upstream, client: 172.26.0.1, server: my_server, request: "POST /service/login.php HTTP/1.1", upstream: "fastcgi://172.26.0.3:9000", host: "localhost:18080", referrer: "http://localhost:18080/login/login_form.php"
+2022/08/01 18:31:18 [notice] 1#1: using the "epoll" event method
+2022/08/01 18:31:18 [notice] 1#1: nginx/1.20.2
+2022/08/01 18:31:18 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/08/01 18:31:18 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/08/01 18:31:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/01 18:31:18 [notice] 1#1: start worker processes
+2022/08/01 18:31:18 [notice] 1#1: start worker process 24
+2022/08/01 18:36:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/01 18:36:08 [notice] 24#24: gracefully shutting down
+2022/08/01 18:36:08 [notice] 24#24: exiting
+2022/08/01 18:36:08 [notice] 24#24: exit
+2022/08/01 18:36:09 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/08/01 18:36:09 [notice] 1#1: worker process 24 exited with code 0
+2022/08/01 18:36:09 [notice] 1#1: exit

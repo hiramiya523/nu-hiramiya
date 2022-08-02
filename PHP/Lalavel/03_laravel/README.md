@@ -86,3 +86,6 @@ php artisan view:cache
 php artisan view:clear
 
 ### O/Rマッパー。Eloquent(エロくアント)
+
+
+Laravelではデータベースへの接続設定を .env ファイルに定義しているので、 /src/.env のDBの部分を以下のように修正します。

@@ -78,3 +78,11 @@ chmod 707 -R storage
 
 ### Controller
 php artisan make:controller HelloController
+
+### テンプレートのコンパイル
+php artisan view:cache
+実行後、「/storage/framework/views」にコンパイル済みファイルが生成
+削除は
+php artisan view:clear
+
+### O/Rマッパー。Eloquent(エロくアント)

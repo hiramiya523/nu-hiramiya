@@ -16,3 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// ルートを定義
+// 「/hello」に対するルート
+// Route::get('/hello', 'App\Http\Controllers\HelloController@index');
+// // 以下のように、namespaseを指定することもできる。
+// use App\Http\Controllers\HelloController;
+// Route::get('/hello', [HelloController::class, 'index']);
+// さらに、アプリ全体で定義する場合は/app/Providers/Controllersの$namespace等を編集する
+Route::get('/hello', 'HelloController@index');
+
+
+// bladeテンプレ テスト
+Route::get('/hello/view', 'HelloController@view_test');

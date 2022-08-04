@@ -41,6 +41,8 @@ nginx -t
 nginx -s reload
 ## mysql
 
+## git 
+
 
 ## composer 
 初期化

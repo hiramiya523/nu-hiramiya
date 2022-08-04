@@ -34,3 +34,6 @@ Route::get('hello/list', 'HelloController@list');
 
 // 予約文字のエスケープ
 Route::get('/view/escape', 'ViewController@escape');
+
+// ifディレクティブ
+Route::get('view/if', 'ViewController@if');

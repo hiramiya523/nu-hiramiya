@@ -12,4 +12,11 @@ class ViewController extends Controller
             'msg' => '<h1>やあ</h1><p>ようこそこちら側へ</p>'
         ]);
     }
+
+    public function if()
+    {
+        return view('view.if', [
+            'radom' => random_int(0, 100)
+        ]);
+    }
 }

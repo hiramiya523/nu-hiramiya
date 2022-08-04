@@ -26,6 +26,11 @@ Route::get('/', function () {
 // さらに、アプリ全体で定義する場合は/app/Providers/Controllersの$namespace等を編集する
 Route::get('/hello', 'HelloController@index');
 
-
 // bladeテンプレ テスト
 Route::get('/hello/view', 'HelloController@view_test');
+
+// Model Eloquent
+Route::get('hello/list', 'HelloController@list');
+
+// 予約文字のエスケープ
+Route::get('/view/escape', 'ViewController@escape');

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Book;
 
 class HelloController extends Controller
 {
@@ -22,5 +23,15 @@ class HelloController extends Controller
         // テンプレートを呼ぶ(/resources/views)
         // フォルダ名.ファイル名
         return view('hello.view_test', $r_data);
+    }
+
+    // Eloquent動作確認
+    public function list()
+    {
+        // booksテーブルから全行取得
+        $r_data = [
+            'records' => Book::all()
+        ];
+        return view('hello.list', $r_data);
     }
 }

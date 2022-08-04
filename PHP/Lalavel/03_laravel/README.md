@@ -54,7 +54,7 @@ list
 composer show -i
 
 
-### laravel
+## laravel
 #### install
 laravel installの場合
 composer global require laravle/installer
@@ -77,6 +77,7 @@ storae ディレクトリの権限が毎回ないので、
 chmod 707 -R storage
 
 ### Controller
+ビュー作成
 php artisan make:controller HelloController
 
 ### テンプレートのコンパイル
@@ -85,7 +86,12 @@ php artisan view:cache
 削除は
 php artisan view:clear
 
-### O/Rマッパー。Eloquent(エロくアント)
-
-
+### O/Rマッパー: Eloquent(エロくアント)
 Laravelではデータベースへの接続設定を .env ファイルに定義しているので、 /src/.env のDBの部分を以下のように修正します。
+
+### モデルクラス作成
+php artisan make:model Book
+
+### 共通のビュー変数を定義する
+/app/Providers/AppServiceProvider..php
+を編集

@@ -19,3 +19,5 @@ CREATE TABLE IF NOT EXISTS mydb.t_user(
 
 INSERT INTO mydb.t_user (c_user_name, c_email, c_password, dt_create) VALUE ('admin', 'admin@admin', 'pass', now());
 select * FROM mydb.t_user;
+
+-- booksテーブル

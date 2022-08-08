@@ -37,3 +37,6 @@ Route::get('/view/escape', 'ViewController@escape');
 
 // ifディレクティブ
 Route::get('view/if', 'ViewController@if');
+
+// 色々ディレクティブ
+Route::get('view/directive', 'ViewController@directive');

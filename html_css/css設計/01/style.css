@@ -1,0 +1,25 @@
+/* ベース ##################################################*/
+/* サイトのベースとなるものはベースグループに属する。 */
+body{
+    font-family: sans-serif;
+}
+
+/* レイアウト ##################################################*/
+/* 位置調整を担当するコードは、「レイアウトグループ」に */
+.ly_count{
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* モジュール ##################################################*/
+/* .xxxx.yyy .zzz は「xxxとyyy両方のクラスを持つ」要素の「titleクラス」 */
+#main .bl_module.main-module .title{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#main .

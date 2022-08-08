@@ -19,4 +19,15 @@ class ViewController extends Controller
             'radom' => random_int(0, 100)
         ]);
     }
+    
+    public function directive()
+    {
+        $r = [
+            'set' => 'setting'
+            ,'random' => random_int(0, 2)
+            , 'weeks' => ['月', '科', '水', '木', '金', '度', '日']
+            // , 'weeks' => []
+        ];
+        return view('view.directive', $r);
+    }
 }

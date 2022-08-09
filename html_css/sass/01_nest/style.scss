@@ -1,0 +1,32 @@
+#main{
+    float: left;
+    width: 640px;
+    // メディアクエリのネスト(最大640pxまでの時)
+
+    section{
+        margin-bottom: 80px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    p, ul {
+        // rem:rootに対する相対、 em:親に対する相対
+        margin-bottom: 1.5em;
+    }
+
+    p.notes{
+        color: red;
+    }
+}
+
+// メディアクエリのネスト
+// 余談だが、メディアクエリはviewportを指定していないと適応されない
+@media screen and (max-width: 640px){
+    #main{
+        float: none;
+        width: auto;
+        background-color: blue;
+    }
+}

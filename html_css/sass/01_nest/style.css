@@ -1,0 +1,24 @@
+#main {
+  float: left;
+  width: 640px;
+}
+#main section {
+  margin-bottom: 80px;
+}
+#main h1 {
+  font-size: 2rem;
+}
+#main p, #main ul {
+  margin-bottom: 1.5em;
+}
+#main p.notes {
+  color: red;
+}
+
+@media screen and (max-width: 640px) {
+  #main {
+    float: none;
+    width: auto;
+    background-color: blue;
+  }
+}/*# sourceMappingURL=style.css.map */

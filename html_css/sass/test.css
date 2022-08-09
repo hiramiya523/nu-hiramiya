@@ -1,0 +1,16 @@
+#main {
+  width: 600;
+}
+#main p {
+  margin: 0 0 1rem;
+}
+#main p em {
+  color: #f00;
+}
+#main .notesArea {
+  border: 1px solid #ff1122;
+}
+
+.notes {
+  color: #ff1122;
+}/*# sourceMappingURL=test.css.map */

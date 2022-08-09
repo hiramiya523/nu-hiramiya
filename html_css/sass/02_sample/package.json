@@ -1,0 +1,17 @@
+{
+  "name": "02_sassbook",
+  "version": "2.0.2",
+  "description": "Web制作者のためのSassの教科書改訂2版 2章サンプル",
+  "homepage": "http://book2.scss.jp/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}

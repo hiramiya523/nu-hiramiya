@@ -1,0 +1,21 @@
+// 行コメントができる
+
+// 変数を定義できる
+$red: #ff1122;
+
+#main{
+    width: 600;
+    p{
+        margin: 0 0 1rem;
+        em{
+            color: #f00;
+        }
+    }
+    .notesArea{
+        border: 1px solid $red;
+    }
+}
+
+.notes{
+    color: $red;
+}

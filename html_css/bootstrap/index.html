@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +10,14 @@
 </head>
 <body>
     <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+      <!-- 上下のpaddingを増やす。左右を増やす場合はpx-X。バックグラウンドはbg-  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3">
         <!-- <div class="container-fluid"> -->
+          <!--  fluidは、どの画面サイズでも常に最大という指定なので以下のように解除して、文字を中央に寄せる -->
         <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <h2 class="text-white pt-1">Bootstrap5</h2>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -24,25 +28,35 @@
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Team</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Contact</a>
               </li>
+
+              <!-- bootstrap のボタン -->
+              <!-- ms-1 は、marginの左に余白1 -->
+              <button class="btn btn-primary ms-2">Join Us</button>
+              <!-- <button class="btn btn-info">Join Us</button> -->
               
             </ul>
           </div>
         </div>
       </nav>
+
+      <!-- hero section -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

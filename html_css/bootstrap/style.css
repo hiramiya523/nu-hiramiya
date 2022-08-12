@@ -1,0 +1,42 @@
+/* google fots "sora" */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+
+/* 変数設定 */
+:root{
+    --primary: #0d6efd;
+    --dark: #21252f;
+    --body: #888;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--dark);
+    font-weight: 700;
+}
+
+a{
+    color: var(--dark);
+    /* aタグって、下線あったりするから、noneで線を消している？ */
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Sora', sans-serif;
+    line-height: 1.7;
+    color: var(--body);
+}
+
+.navbar .nav-item>.nav-link{
+    /* bootstrapより、指定を優先 */
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 16px;
+}
+
+.btn{
+    padding: 14px 18px;
+    /* 太さ */
+    border-width: 2px;
+    /* 丸みを無しに */
+    border-radius: 0;
+}

@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  app:
+    container_name: con_rust
+    build: .
+    tty: true
+    volumes:
+      - ./src:/my_project/src

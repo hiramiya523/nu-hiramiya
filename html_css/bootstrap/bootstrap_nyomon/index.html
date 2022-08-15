@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <!-- font size -->
+    <!-- クラス指定で、hタグと表示を同じようにできる -->
+    <h1>h1</h1>
+    <h6>h6</h6>
+    
+    <p class="h1">p.h1</p>
+    <p class="h6">p.h6</p>
+
+    <!-- 目立たせたい -->
+    <p class="display-1">display 1</p>
+    <p class="display-6">display 6</p>
+    
+    <!-- フォントサイズだけ変更したい -->
+    <p class="fs-1">font size 1</p>
+    <p class="fs-6">font size 6</p>
+
+    <p>#######################################</p>
+    
+    <!-- color -->
+    <!-- テキストの色 -->
+    <p class="text-primary">text-primary</p>
+    <p class="text-secondary">text-second</p>
+    <p class="text-success">text-success</p>
+
+    <p>#######################################</p>
+
+    <!-- font&bg カラー -->
+    <p class="bg-danger text-white">bg-danger</p>
+    <p class="bg-warning">bg-warning</p>
+    <p class="bg-info">bg-info</p>
+
+    <p>#####################################################</p>
+
+    <!-- button -->
+    <!-- btn btn-* でボタンクラス -->
+    <!-- a, input でも利用可能 -->
+    <button type="button" class="btn btn-primary">Primary (buttonタグ)</button>
+    <a href="#" class="btn btn-secondary">Link (aタグ)</a>
+    <input type="button" value="Inputタグ" class="btn btn-success">
+    <!-- 枠だけのボタンは、"outline"を使う -->
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+
+    <p>#####################################################</p>
+
+    <!-- スペーシング -->
+    <!-- .borderは枠線の意味。 -->
+    <div class="border bg-warning">
+        <!-- 0 ~ 5 で指定可能 -->
+        <div class="m-3 p3 bg-info">
+            4方向スペーシング
+        </div>
+    </div>
+
+    <br>
+
+    <div class="border bg-warning">
+        <div class="mt-3 pb-3 bg-info">
+            margin top, padding bottom
+        </div>
+    </div>
+
+    <br>
+
+    <div class="border bg-warning">
+        <div class="ms-3 pe-3 bg-info">
+            margin start, padding end
+        </div>
+    </div>
+
+    <br>
+
+    <div class="border bg-warning">
+        <div class="mx-3 py-3 bg-info">
+            x: 左右指定、 y: 上下指定
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

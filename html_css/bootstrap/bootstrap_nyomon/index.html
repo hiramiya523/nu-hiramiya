@@ -116,9 +116,30 @@
         </div>
     </div>
 
-    <p>#####################################################</p>
+    <p>#######################################################################</p>
 
-    <!--  -->
+    <!-- テキスト整列 -->
+    <div class="container">
+        <!-- myはmarginね -->
+        <div class="row border my-3">
+            <div class="col text-start ">text_start</div>
+            <div class="col text-center bg-info">text-center</div>
+            <div class="col text-end">text-end</div>
+        </div>
+
+        <!-- flexアイテムの位置を調整 -->
+        <!-- justify-content-centerは左右中央寄せ -->
+        <div class="row justify-content-center border">
+            <div class="col-6 bg-info">justify-content-center</div>
+        </div>
+
+        <!-- 上下中央寄せ -->
+        <div class="row align-items-center border my-3" style="height: 70px;">
+            <div class="col-4 bg-warning" >align-items-center</div>
+        </div>
+
+        <div class="col align-self-center bg-warning">align-self-center</div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

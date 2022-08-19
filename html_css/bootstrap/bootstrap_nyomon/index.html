@@ -85,7 +85,40 @@
         </div>
     </div>
 
+    <p>#####################################################</p>
+    <!-- グリッドシステム -->
+    <!-- 画面を12分割で考える -->
+    <div class="container">
+        <!-- .borderはそのままの意味 -->
+        <div class="row border">
+            <div class="col">col</div>
+            <div class="col bg-info">col</div>
+            <div class="col">col</div>
+        </div>
 
+        <!-- 3:6:3 -->
+        <div class="row border">
+            <div class="col-3">col-3</div>
+            <div class="col-6 bg-info">col-6</div>
+            <div class="col-3">col-3</div>
+        </div>
+    </div>
+
+    <!-- .containerが画面サイズで自動調節に対し、fluidは常に100% -->
+    <div class="container-fluid">
+        <div class="row border">
+            <!-- ブレークポイント。768px以上で4:4:4,
+                未満で6:6:6
+            -->
+            <div class="col-6 col-md-4">1 of 3</div>
+            <div class="col-6 col-md-4">2 of 3</div>
+            <div class="col-6 col-md-4">3 of 3</div>
+        </div>
+    </div>
+
+    <p>#####################################################</p>
+
+    <!--  -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

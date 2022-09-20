@@ -10,12 +10,20 @@
 <body>
     <h1 class="text-7xl">Hello Tailwind</h1>
     <h1 class="text-4xl text-sky-500">Hello Tailwind</h1>
+    <!-- バックグラウンド変更 -->
     <header class="bg-blue-400">
-        <nav>
-            <div>ShiraCode.com</div>
-            <div>
-                <a href="#">ホーム</a>
-                <a href="#">ブログ</a>
+        <!-- flex boxで横並びに -->
+        <!-- fustifi-content で、 flexboxアイテムを配置する際に、開始点や終了点、中心からの配置が可能になります。 -->
+        <!-- containerクラスで、要素の幅を現在のブレークポイントに設定する mx-autoは真ん中に寄せるための大体セット -->
+        <!-- items-center はconteiner中に文字を並べるときに、ズレが生じないように -->
+        <nav class="flex justify-between mx-auto container items-center">
+            <div class="text-4xl"> ShiraCode.com</div>
+            <!-- インライン要素であるaタグのスペースを開ける -->
+            <div class="space-x-12 font-bold">
+                <!-- hover処理 -->
+                <!-- duration 300 で0.3秒 -->
+                <a href="#" class="hover:text-green-200 transition-all duration-300">ホーム</a>
+                <a href="#" class="hover:text-green-300 duration-500">ブログ</a>
                 <a href="#">お問合せ</a>
             </div>
         </nav>

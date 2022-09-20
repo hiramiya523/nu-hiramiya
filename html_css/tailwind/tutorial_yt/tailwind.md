@@ -7,6 +7,9 @@ cssフレームワーク
   - npm i -D tailwindcss
 - npx tailwindcss init
 
+- npm run build 
+  定義したbuildコマンドをrunする
+
 
 # メリット
 クラス名を考える時間がなくなる

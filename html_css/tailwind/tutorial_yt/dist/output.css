@@ -594,6 +594,10 @@ video {
   display: flex;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .items-center {
   align-items: center;
 }
@@ -611,6 +615,10 @@ video {
 .bg-blue-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+}
+
+.bg-tutorial-bg {
+  background-image: url('../src/img/main-bg.jpg');
 }
 
 .text-7xl {

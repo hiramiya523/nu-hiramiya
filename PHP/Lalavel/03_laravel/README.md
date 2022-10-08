@@ -78,6 +78,9 @@ conposer create-project laravel/laravel quick-laravel
 storae ディレクトリの権限が毎回ないので、
 chmod 707 -R storage
 
+## laravel 2
+composer create-project laravel/laravel appli
+
 ### Controller
 ビュー作成
 php artisan make:controller HelloController

@@ -1,0 +1,996 @@
+2022/10/07 19:26:17 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:26:18 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:26:20 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:26:22 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:26:24 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:26:27 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:26:32 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:26:40 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:26:54 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:27:12 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:27:14 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:27:16 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:27:18 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:27:20 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:27:23 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:27:28 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:27:35 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:27:49 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:28:17 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:29:15 [emerg] 1#1: directive "charset" is not terminated by ";" in /etc/nginx/conf.d/laravel.conf:6
+2022/10/07 19:42:30 [emerg] 1#1: unexpected "}" in /etc/nginx/conf.d/laravel.conf:15
+2022/10/07 19:44:08 [notice] 1#1: using the "epoll" event method
+2022/10/07 19:44:08 [notice] 1#1: nginx/1.20.2
+2022/10/07 19:44:08 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/10/07 19:44:08 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/10/07 19:44:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/07 19:44:08 [notice] 1#1: start worker processes
+2022/10/07 19:44:08 [notice] 1#1: start worker process 32
+2022/10/07 19:44:08 [notice] 1#1: start worker process 33
+2022/10/07 19:44:08 [notice] 1#1: start worker process 34
+2022/10/07 19:44:08 [notice] 1#1: start worker process 35
+2022/10/07 19:44:08 [notice] 1#1: start worker process 36
+2022/10/07 19:44:08 [notice] 1#1: start worker process 37
+2022/10/07 19:44:08 [notice] 1#1: start worker process 38
+2022/10/07 19:44:08 [notice] 1#1: start worker process 39
+2022/10/07 20:03:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/07 20:03:22 [notice] 32#32: gracefully shutting down
+2022/10/07 20:03:22 [notice] 33#33: gracefully shutting down
+2022/10/07 20:03:22 [notice] 34#34: gracefully shutting down
+2022/10/07 20:03:22 [notice] 35#35: gracefully shutting down
+2022/10/07 20:03:22 [notice] 35#35: exiting
+2022/10/07 20:03:22 [notice] 35#35: exit
+2022/10/07 20:03:22 [notice] 36#36: gracefully shutting down
+2022/10/07 20:03:22 [notice] 38#38: gracefully shutting down
+2022/10/07 20:03:22 [notice] 39#39: gracefully shutting down
+2022/10/07 20:03:22 [notice] 37#37: gracefully shutting down
+2022/10/07 20:03:22 [notice] 32#32: exiting
+2022/10/07 20:03:22 [notice] 33#33: exiting
+2022/10/07 20:03:22 [notice] 34#34: exiting
+2022/10/07 20:03:22 [notice] 36#36: exiting
+2022/10/07 20:03:22 [notice] 38#38: exiting
+2022/10/07 20:03:22 [notice] 39#39: exiting
+2022/10/07 20:03:22 [notice] 37#37: exiting
+2022/10/07 20:03:22 [notice] 32#32: exit
+2022/10/07 20:03:22 [notice] 33#33: exit
+2022/10/07 20:03:22 [notice] 34#34: exit
+2022/10/07 20:03:22 [notice] 36#36: exit
+2022/10/07 20:03:22 [notice] 38#38: exit
+2022/10/07 20:03:22 [notice] 39#39: exit
+2022/10/07 20:03:22 [notice] 37#37: exit
+2022/10/07 20:03:22 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/10/07 20:03:22 [notice] 1#1: worker process 35 exited with code 0
+2022/10/07 20:03:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/07 20:03:22 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/10/07 20:03:22 [notice] 1#1: worker process 32 exited with code 0
+2022/10/07 20:03:22 [notice] 1#1: worker process 33 exited with code 0
+2022/10/07 20:03:22 [notice] 1#1: worker process 34 exited with code 0
+2022/10/07 20:03:22 [notice] 1#1: worker process 36 exited with code 0
+2022/10/07 20:03:22 [notice] 1#1: worker process 37 exited with code 0
+2022/10/07 20:03:22 [notice] 1#1: worker process 38 exited with code 0
+2022/10/07 20:03:22 [notice] 1#1: worker process 39 exited with code 0
+2022/10/07 20:03:23 [notice] 1#1: exit
+2022/10/07 20:03:57 [notice] 1#1: using the "epoll" event method
+2022/10/07 20:03:57 [notice] 1#1: nginx/1.20.2
+2022/10/07 20:03:57 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/10/07 20:03:57 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/10/07 20:03:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/07 20:03:57 [notice] 1#1: start worker processes
+2022/10/07 20:03:57 [notice] 1#1: start worker process 32
+2022/10/07 20:03:57 [notice] 1#1: start worker process 33
+2022/10/07 20:03:57 [notice] 1#1: start worker process 34
+2022/10/07 20:03:57 [notice] 1#1: start worker process 35
+2022/10/07 20:03:57 [notice] 1#1: start worker process 36
+2022/10/07 20:03:57 [notice] 1#1: start worker process 37
+2022/10/07 20:03:57 [notice] 1#1: start worker process 38
+2022/10/07 20:03:57 [notice] 1#1: start worker process 39
+2022/10/07 20:06:18 [error] 33#33: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:18080", referrer: "http://localhost:18080/"
+2022/10/07 20:06:43 [error] 33#33: *2 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /index.php HTTP/1.1", host: "localhost:18080"
+2022/10/07 20:09:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/07 20:09:52 [notice] 32#32: gracefully shutting down
+2022/10/07 20:09:52 [notice] 33#33: gracefully shutting down
+2022/10/07 20:09:52 [notice] 34#34: gracefully shutting down
+2022/10/07 20:09:52 [notice] 35#35: gracefully shutting down
+2022/10/07 20:09:52 [notice] 36#36: gracefully shutting down
+2022/10/07 20:09:52 [notice] 37#37: gracefully shutting down
+2022/10/07 20:09:52 [notice] 38#38: gracefully shutting down
+2022/10/07 20:09:52 [notice] 39#39: gracefully shutting down
+2022/10/07 20:09:52 [notice] 32#32: exiting
+2022/10/07 20:09:52 [notice] 33#33: exiting
+2022/10/07 20:09:52 [notice] 34#34: exiting
+2022/10/07 20:09:52 [notice] 35#35: exiting
+2022/10/07 20:09:52 [notice] 36#36: exiting
+2022/10/07 20:09:52 [notice] 37#37: exiting
+2022/10/07 20:09:52 [notice] 38#38: exiting
+2022/10/07 20:09:52 [notice] 39#39: exiting
+2022/10/07 20:09:52 [notice] 32#32: exit
+2022/10/07 20:09:52 [notice] 33#33: exit
+2022/10/07 20:09:52 [notice] 34#34: exit
+2022/10/07 20:09:52 [notice] 35#35: exit
+2022/10/07 20:09:52 [notice] 36#36: exit
+2022/10/07 20:09:52 [notice] 37#37: exit
+2022/10/07 20:09:52 [notice] 38#38: exit
+2022/10/07 20:09:52 [notice] 39#39: exit
+2022/10/07 20:09:52 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/10/07 20:09:52 [notice] 1#1: worker process 33 exited with code 0
+2022/10/07 20:09:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/07 20:09:52 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2022/10/07 20:09:52 [notice] 1#1: worker process 34 exited with code 0
+2022/10/07 20:09:52 [notice] 1#1: worker process 35 exited with code 0
+2022/10/07 20:09:52 [notice] 1#1: worker process 36 exited with code 0
+2022/10/07 20:09:52 [notice] 1#1: worker process 37 exited with code 0
+2022/10/07 20:09:52 [notice] 1#1: worker process 38 exited with code 0
+2022/10/07 20:09:52 [notice] 1#1: worker process 39 exited with code 0
+2022/10/07 20:09:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/07 20:09:52 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/10/07 20:09:52 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/10/07 20:09:52 [notice] 1#1: worker process 32 exited with code 0
+2022/10/07 20:09:52 [notice] 1#1: exit
+2022/10/07 20:09:58 [notice] 1#1: using the "epoll" event method
+2022/10/07 20:09:58 [notice] 1#1: nginx/1.20.2
+2022/10/07 20:09:58 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/10/07 20:09:58 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/10/07 20:09:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/07 20:09:58 [notice] 1#1: start worker processes
+2022/10/07 20:09:58 [notice] 1#1: start worker process 33
+2022/10/07 20:09:58 [notice] 1#1: start worker process 34
+2022/10/07 20:09:58 [notice] 1#1: start worker process 35
+2022/10/07 20:09:58 [notice] 1#1: start worker process 36
+2022/10/07 20:09:58 [notice] 1#1: start worker process 37
+2022/10/07 20:09:58 [notice] 1#1: start worker process 38
+2022/10/07 20:09:58 [notice] 1#1: start worker process 39
+2022/10/07 20:09:58 [notice] 1#1: start worker process 40
+2022/10/07 20:10:00 [error] 34#34: *2 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /index.php HTTP/1.1", host: "localhost:18080"
+2022/10/07 20:10:00 [error] 34#34: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:18080", referrer: "http://localhost:18080/index.php"
+2022/10/07 20:10:01 [error] 34#34: *2 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /index.php HTTP/1.1", host: "localhost:18080"
+2022/10/07 20:10:01 [error] 34#34: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:18080", referrer: "http://localhost:18080/index.php"
+2022/10/07 20:11:42 [notice] 55#55: signal process started
+2022/10/07 20:11:42 [notice] 1#1: signal 1 (SIGHUP) received from 55, reconfiguring
+2022/10/07 20:11:42 [notice] 1#1: reconfiguring
+2022/10/07 20:11:42 [notice] 1#1: using the "epoll" event method
+2022/10/07 20:11:42 [notice] 1#1: start worker processes
+2022/10/07 20:11:42 [notice] 1#1: start worker process 56
+2022/10/07 20:11:42 [notice] 1#1: start worker process 57
+2022/10/07 20:11:42 [notice] 1#1: start worker process 58
+2022/10/07 20:11:42 [notice] 1#1: start worker process 59
+2022/10/07 20:11:42 [notice] 1#1: start worker process 60
+2022/10/07 20:11:42 [notice] 1#1: start worker process 61
+2022/10/07 20:11:42 [notice] 1#1: start worker process 62
+2022/10/07 20:11:42 [notice] 1#1: start worker process 63
+2022/10/07 20:11:42 [notice] 33#33: gracefully shutting down
+2022/10/07 20:11:42 [notice] 34#34: gracefully shutting down
+2022/10/07 20:11:42 [notice] 35#35: gracefully shutting down
+2022/10/07 20:11:42 [notice] 38#38: gracefully shutting down
+2022/10/07 20:11:42 [notice] 36#36: gracefully shutting down
+2022/10/07 20:11:42 [notice] 39#39: gracefully shutting down
+2022/10/07 20:11:42 [notice] 37#37: gracefully shutting down
+2022/10/07 20:11:42 [notice] 40#40: gracefully shutting down
+2022/10/07 20:11:42 [notice] 33#33: exiting
+2022/10/07 20:11:42 [notice] 34#34: exiting
+2022/10/07 20:11:42 [notice] 35#35: exiting
+2022/10/07 20:11:42 [notice] 38#38: exiting
+2022/10/07 20:11:42 [notice] 36#36: exiting
+2022/10/07 20:11:42 [notice] 39#39: exiting
+2022/10/07 20:11:42 [notice] 37#37: exiting
+2022/10/07 20:11:42 [notice] 40#40: exiting
+2022/10/07 20:11:42 [notice] 33#33: exit
+2022/10/07 20:11:42 [notice] 34#34: exit
+2022/10/07 20:11:42 [notice] 35#35: exit
+2022/10/07 20:11:42 [notice] 38#38: exit
+2022/10/07 20:11:42 [notice] 36#36: exit
+2022/10/07 20:11:42 [notice] 39#39: exit
+2022/10/07 20:11:42 [notice] 37#37: exit
+2022/10/07 20:11:42 [notice] 40#40: exit
+2022/10/07 20:11:42 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/10/07 20:11:42 [notice] 1#1: worker process 34 exited with code 0
+2022/10/07 20:11:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/07 20:11:42 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/10/07 20:11:42 [notice] 1#1: worker process 36 exited with code 0
+2022/10/07 20:11:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/07 20:11:42 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/10/07 20:11:42 [notice] 1#1: worker process 33 exited with code 0
+2022/10/07 20:11:42 [notice] 1#1: worker process 35 exited with code 0
+2022/10/07 20:11:42 [notice] 1#1: worker process 37 exited with code 0
+2022/10/07 20:11:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/07 20:11:42 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/10/07 20:11:42 [notice] 1#1: worker process 38 exited with code 0
+2022/10/07 20:11:42 [notice] 1#1: worker process 40 exited with code 0
+2022/10/07 20:11:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/07 20:11:42 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/10/07 20:11:42 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2022/10/07 20:11:42 [notice] 1#1: worker process 39 exited with code 0
+2022/10/07 20:11:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/07 20:11:44 [error] 56#56: *3 directory index of "/var/www/public_html/" is forbidden, client: 172.22.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/07 20:12:00 [error] 56#56: *3 directory index of "/var/www/public_html/" is forbidden, client: 172.22.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/07 20:14:07 [error] 56#56: *5 directory index of "/var/www/public_html/" is forbidden, client: 172.22.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/07 20:14:35 [error] 56#56: *5 directory index of "/var/www/public_html/" is forbidden, client: 172.22.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/07 20:16:01 [notice] 68#68: signal process started
+2022/10/07 20:16:01 [notice] 1#1: signal 1 (SIGHUP) received from 68, reconfiguring
+2022/10/07 20:16:01 [notice] 1#1: reconfiguring
+2022/10/07 20:16:01 [notice] 1#1: using the "epoll" event method
+2022/10/07 20:16:01 [notice] 1#1: start worker processes
+2022/10/07 20:16:01 [notice] 1#1: start worker process 69
+2022/10/07 20:16:01 [notice] 1#1: start worker process 70
+2022/10/07 20:16:01 [notice] 1#1: start worker process 71
+2022/10/07 20:16:01 [notice] 1#1: start worker process 72
+2022/10/07 20:16:01 [notice] 1#1: start worker process 73
+2022/10/07 20:16:01 [notice] 1#1: start worker process 74
+2022/10/07 20:16:01 [notice] 1#1: start worker process 75
+2022/10/07 20:16:01 [notice] 1#1: start worker process 76
+2022/10/07 20:16:01 [notice] 56#56: gracefully shutting down
+2022/10/07 20:16:01 [notice] 57#57: gracefully shutting down
+2022/10/07 20:16:01 [notice] 58#58: gracefully shutting down
+2022/10/07 20:16:01 [notice] 59#59: gracefully shutting down
+2022/10/07 20:16:01 [notice] 60#60: gracefully shutting down
+2022/10/07 20:16:01 [notice] 61#61: gracefully shutting down
+2022/10/07 20:16:01 [notice] 62#62: gracefully shutting down
+2022/10/07 20:16:01 [notice] 63#63: gracefully shutting down
+2022/10/07 20:16:01 [notice] 56#56: exiting
+2022/10/07 20:16:01 [notice] 57#57: exiting
+2022/10/07 20:16:01 [notice] 58#58: exiting
+2022/10/07 20:16:01 [notice] 59#59: exiting
+2022/10/07 20:16:01 [notice] 60#60: exiting
+2022/10/07 20:16:01 [notice] 61#61: exiting
+2022/10/07 20:16:01 [notice] 62#62: exiting
+2022/10/07 20:16:01 [notice] 63#63: exiting
+2022/10/07 20:16:01 [notice] 56#56: exit
+2022/10/07 20:16:01 [notice] 57#57: exit
+2022/10/07 20:16:01 [notice] 58#58: exit
+2022/10/07 20:16:01 [notice] 59#59: exit
+2022/10/07 20:16:01 [notice] 60#60: exit
+2022/10/07 20:16:01 [notice] 61#61: exit
+2022/10/07 20:16:01 [notice] 62#62: exit
+2022/10/07 20:16:01 [notice] 63#63: exit
+2022/10/07 20:16:01 [notice] 1#1: signal 17 (SIGCHLD) received from 62
+2022/10/07 20:16:01 [notice] 1#1: worker process 56 exited with code 0
+2022/10/07 20:16:01 [notice] 1#1: worker process 57 exited with code 0
+2022/10/07 20:16:01 [notice] 1#1: worker process 58 exited with code 0
+2022/10/07 20:16:01 [notice] 1#1: worker process 59 exited with code 0
+2022/10/07 20:16:01 [notice] 1#1: worker process 61 exited with code 0
+2022/10/07 20:16:01 [notice] 1#1: worker process 62 exited with code 0
+2022/10/07 20:16:01 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/07 20:16:01 [notice] 1#1: signal 17 (SIGCHLD) received from 57
+2022/10/07 20:16:02 [notice] 1#1: signal 17 (SIGCHLD) received from 60
+2022/10/07 20:16:02 [notice] 1#1: worker process 60 exited with code 0
+2022/10/07 20:16:02 [notice] 1#1: worker process 63 exited with code 0
+2022/10/07 20:16:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/07 20:16:02 [notice] 1#1: signal 17 (SIGCHLD) received from 63
+2022/10/07 20:16:13 [error] 69#69: *7 directory index of "/var/www/public_html/" is forbidden, client: 172.22.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/08 00:19:49 [notice] 1#1: using the "epoll" event method
+2022/10/08 00:19:49 [notice] 1#1: nginx/1.20.2
+2022/10/08 00:19:49 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/10/08 00:19:49 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/10/08 00:19:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/08 00:19:49 [notice] 1#1: start worker processes
+2022/10/08 00:19:49 [notice] 1#1: start worker process 32
+2022/10/08 00:19:49 [notice] 1#1: start worker process 33
+2022/10/08 00:19:49 [notice] 1#1: start worker process 34
+2022/10/08 00:19:49 [notice] 1#1: start worker process 35
+2022/10/08 00:19:49 [notice] 1#1: start worker process 36
+2022/10/08 00:19:49 [notice] 1#1: start worker process 37
+2022/10/08 00:19:49 [notice] 1#1: start worker process 38
+2022/10/08 00:19:49 [notice] 1#1: start worker process 39
+2022/10/08 00:20:34 [error] 33#33: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:18080", referrer: "http://localhost:18080/"
+2022/10/08 00:24:37 [notice] 55#55: signal process started
+2022/10/08 00:24:37 [notice] 1#1: signal 1 (SIGHUP) received from 55, reconfiguring
+2022/10/08 00:24:37 [notice] 1#1: reconfiguring
+2022/10/08 00:24:37 [notice] 1#1: using the "epoll" event method
+2022/10/08 00:24:37 [notice] 1#1: start worker processes
+2022/10/08 00:24:37 [notice] 1#1: start worker process 56
+2022/10/08 00:24:37 [notice] 1#1: start worker process 57
+2022/10/08 00:24:37 [notice] 1#1: start worker process 58
+2022/10/08 00:24:37 [notice] 1#1: start worker process 59
+2022/10/08 00:24:37 [notice] 1#1: start worker process 60
+2022/10/08 00:24:37 [notice] 1#1: start worker process 61
+2022/10/08 00:24:37 [notice] 1#1: start worker process 62
+2022/10/08 00:24:37 [notice] 1#1: start worker process 63
+2022/10/08 00:24:37 [notice] 32#32: gracefully shutting down
+2022/10/08 00:24:37 [notice] 33#33: gracefully shutting down
+2022/10/08 00:24:37 [notice] 34#34: gracefully shutting down
+2022/10/08 00:24:37 [notice] 36#36: gracefully shutting down
+2022/10/08 00:24:37 [notice] 37#37: gracefully shutting down
+2022/10/08 00:24:37 [notice] 35#35: gracefully shutting down
+2022/10/08 00:24:37 [notice] 39#39: gracefully shutting down
+2022/10/08 00:24:37 [notice] 38#38: gracefully shutting down
+2022/10/08 00:24:37 [notice] 32#32: exiting
+2022/10/08 00:24:37 [notice] 33#33: exiting
+2022/10/08 00:24:37 [notice] 34#34: exiting
+2022/10/08 00:24:37 [notice] 36#36: exiting
+2022/10/08 00:24:37 [notice] 37#37: exiting
+2022/10/08 00:24:37 [notice] 35#35: exiting
+2022/10/08 00:24:37 [notice] 39#39: exiting
+2022/10/08 00:24:37 [notice] 38#38: exiting
+2022/10/08 00:24:37 [notice] 32#32: exit
+2022/10/08 00:24:37 [notice] 33#33: exit
+2022/10/08 00:24:37 [notice] 34#34: exit
+2022/10/08 00:24:37 [notice] 36#36: exit
+2022/10/08 00:24:37 [notice] 37#37: exit
+2022/10/08 00:24:37 [notice] 35#35: exit
+2022/10/08 00:24:37 [notice] 39#39: exit
+2022/10/08 00:24:37 [notice] 38#38: exit
+2022/10/08 00:24:37 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/10/08 00:24:37 [notice] 1#1: worker process 34 exited with code 0
+2022/10/08 00:24:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:24:37 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/10/08 00:24:37 [notice] 1#1: worker process 32 exited with code 0
+2022/10/08 00:24:37 [notice] 1#1: worker process 35 exited with code 0
+2022/10/08 00:24:37 [notice] 1#1: worker process 36 exited with code 0
+2022/10/08 00:24:37 [notice] 1#1: worker process 37 exited with code 0
+2022/10/08 00:24:37 [notice] 1#1: worker process 38 exited with code 0
+2022/10/08 00:24:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:24:38 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2022/10/08 00:24:38 [notice] 1#1: worker process 39 exited with code 0
+2022/10/08 00:24:38 [notice] 1#1: worker process 33 exited with code 0
+2022/10/08 00:24:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:24:38 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/10/08 00:29:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/08 00:29:11 [notice] 57#57: gracefully shutting down
+2022/10/08 00:29:11 [notice] 56#56: gracefully shutting down
+2022/10/08 00:29:11 [notice] 58#58: gracefully shutting down
+2022/10/08 00:29:11 [notice] 59#59: gracefully shutting down
+2022/10/08 00:29:11 [notice] 60#60: gracefully shutting down
+2022/10/08 00:29:11 [notice] 61#61: gracefully shutting down
+2022/10/08 00:29:11 [notice] 62#62: gracefully shutting down
+2022/10/08 00:29:11 [notice] 63#63: gracefully shutting down
+2022/10/08 00:29:11 [notice] 56#56: exiting
+2022/10/08 00:29:11 [notice] 58#58: exiting
+2022/10/08 00:29:11 [notice] 56#56: exit
+2022/10/08 00:29:11 [notice] 59#59: exiting
+2022/10/08 00:29:11 [notice] 60#60: exiting
+2022/10/08 00:29:11 [notice] 61#61: exiting
+2022/10/08 00:29:11 [notice] 62#62: exiting
+2022/10/08 00:29:11 [notice] 63#63: exiting
+2022/10/08 00:29:11 [notice] 58#58: exit
+2022/10/08 00:29:11 [notice] 59#59: exit
+2022/10/08 00:29:11 [notice] 60#60: exit
+2022/10/08 00:29:11 [notice] 61#61: exit
+2022/10/08 00:29:11 [notice] 62#62: exit
+2022/10/08 00:29:11 [notice] 63#63: exit
+2022/10/08 00:29:12 [notice] 1#1: signal 17 (SIGCHLD) received from 60
+2022/10/08 00:29:12 [notice] 1#1: worker process 59 exited with code 0
+2022/10/08 00:29:12 [notice] 1#1: worker process 60 exited with code 0
+2022/10/08 00:29:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:29:12 [notice] 1#1: signal 17 (SIGCHLD) received from 56
+2022/10/08 00:29:12 [notice] 1#1: worker process 56 exited with code 0
+2022/10/08 00:29:12 [notice] 1#1: worker process 58 exited with code 0
+2022/10/08 00:29:12 [notice] 1#1: worker process 61 exited with code 0
+2022/10/08 00:29:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:29:12 [notice] 1#1: signal 17 (SIGCHLD) received from 58
+2022/10/08 00:29:12 [notice] 1#1: signal 17 (SIGCHLD) received from 62
+2022/10/08 00:29:12 [notice] 1#1: worker process 62 exited with code 0
+2022/10/08 00:29:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:29:12 [notice] 1#1: signal 17 (SIGCHLD) received from 63
+2022/10/08 00:29:12 [notice] 1#1: worker process 63 exited with code 0
+2022/10/08 00:29:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:31:11 [notice] 1#1: using the "epoll" event method
+2022/10/08 00:31:11 [notice] 1#1: nginx/1.20.2
+2022/10/08 00:31:11 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/10/08 00:31:11 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/10/08 00:31:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/08 00:31:11 [notice] 1#1: start worker processes
+2022/10/08 00:31:11 [notice] 1#1: start worker process 32
+2022/10/08 00:31:11 [notice] 1#1: start worker process 33
+2022/10/08 00:31:11 [notice] 1#1: start worker process 34
+2022/10/08 00:31:11 [notice] 1#1: start worker process 35
+2022/10/08 00:31:11 [notice] 1#1: start worker process 36
+2022/10/08 00:31:11 [notice] 1#1: start worker process 37
+2022/10/08 00:31:11 [notice] 1#1: start worker process 38
+2022/10/08 00:31:11 [notice] 1#1: start worker process 39
+2022/10/08 00:31:50 [error] 33#33: *2 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", host: "localhost:18080"
+2022/10/08 00:31:50 [error] 33#33: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:18080", referrer: "http://localhost:18080/index.php"
+2022/10/08 00:32:50 [notice] 49#49: signal process started
+2022/10/08 00:32:50 [notice] 1#1: signal 1 (SIGHUP) received from 49, reconfiguring
+2022/10/08 00:32:50 [notice] 1#1: reconfiguring
+2022/10/08 00:32:50 [notice] 1#1: using the "epoll" event method
+2022/10/08 00:32:50 [notice] 1#1: start worker processes
+2022/10/08 00:32:50 [notice] 1#1: start worker process 50
+2022/10/08 00:32:50 [notice] 1#1: start worker process 51
+2022/10/08 00:32:50 [notice] 1#1: start worker process 52
+2022/10/08 00:32:50 [notice] 1#1: start worker process 53
+2022/10/08 00:32:50 [notice] 1#1: start worker process 54
+2022/10/08 00:32:50 [notice] 1#1: start worker process 55
+2022/10/08 00:32:50 [notice] 1#1: start worker process 56
+2022/10/08 00:32:50 [notice] 1#1: start worker process 57
+2022/10/08 00:32:50 [notice] 32#32: gracefully shutting down
+2022/10/08 00:32:50 [notice] 33#33: gracefully shutting down
+2022/10/08 00:32:50 [notice] 35#35: gracefully shutting down
+2022/10/08 00:32:50 [notice] 36#36: gracefully shutting down
+2022/10/08 00:32:50 [notice] 37#37: gracefully shutting down
+2022/10/08 00:32:50 [notice] 34#34: gracefully shutting down
+2022/10/08 00:32:50 [notice] 38#38: gracefully shutting down
+2022/10/08 00:32:50 [notice] 38#38: exiting
+2022/10/08 00:32:50 [notice] 39#39: gracefully shutting down
+2022/10/08 00:32:50 [notice] 32#32: exiting
+2022/10/08 00:32:50 [notice] 33#33: exiting
+2022/10/08 00:32:50 [notice] 35#35: exiting
+2022/10/08 00:32:50 [notice] 36#36: exiting
+2022/10/08 00:32:50 [notice] 37#37: exiting
+2022/10/08 00:32:50 [notice] 34#34: exiting
+2022/10/08 00:32:50 [notice] 38#38: exit
+2022/10/08 00:32:50 [notice] 39#39: exiting
+2022/10/08 00:32:50 [notice] 32#32: exit
+2022/10/08 00:32:50 [notice] 33#33: exit
+2022/10/08 00:32:50 [notice] 35#35: exit
+2022/10/08 00:32:50 [notice] 36#36: exit
+2022/10/08 00:32:50 [notice] 37#37: exit
+2022/10/08 00:32:50 [notice] 34#34: exit
+2022/10/08 00:32:50 [notice] 39#39: exit
+2022/10/08 00:32:51 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/10/08 00:32:51 [notice] 1#1: worker process 34 exited with code 0
+2022/10/08 00:32:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:32:51 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/10/08 00:32:51 [notice] 1#1: worker process 32 exited with code 0
+2022/10/08 00:32:51 [notice] 1#1: worker process 33 exited with code 0
+2022/10/08 00:32:51 [notice] 1#1: worker process 35 exited with code 0
+2022/10/08 00:32:51 [notice] 1#1: worker process 36 exited with code 0
+2022/10/08 00:32:51 [notice] 1#1: worker process 38 exited with code 0
+2022/10/08 00:32:51 [notice] 1#1: worker process 39 exited with code 0
+2022/10/08 00:32:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:32:51 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/10/08 00:32:51 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/10/08 00:32:51 [notice] 1#1: worker process 37 exited with code 0
+2022/10/08 00:32:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:32:55 [error] 50#50: *3 directory index of "/var/www/public_html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/08 00:36:05 [notice] 58#58: signal process started
+2022/10/08 00:36:05 [notice] 1#1: signal 1 (SIGHUP) received from 58, reconfiguring
+2022/10/08 00:36:05 [notice] 1#1: reconfiguring
+2022/10/08 00:36:05 [notice] 1#1: using the "epoll" event method
+2022/10/08 00:36:05 [notice] 1#1: start worker processes
+2022/10/08 00:36:05 [notice] 1#1: start worker process 59
+2022/10/08 00:36:05 [notice] 1#1: start worker process 60
+2022/10/08 00:36:05 [notice] 1#1: start worker process 61
+2022/10/08 00:36:05 [notice] 1#1: start worker process 62
+2022/10/08 00:36:05 [notice] 1#1: start worker process 63
+2022/10/08 00:36:05 [notice] 1#1: start worker process 64
+2022/10/08 00:36:05 [notice] 1#1: start worker process 65
+2022/10/08 00:36:05 [notice] 1#1: start worker process 66
+2022/10/08 00:36:05 [notice] 50#50: gracefully shutting down
+2022/10/08 00:36:05 [notice] 51#51: gracefully shutting down
+2022/10/08 00:36:05 [notice] 52#52: gracefully shutting down
+2022/10/08 00:36:05 [notice] 53#53: gracefully shutting down
+2022/10/08 00:36:05 [notice] 55#55: gracefully shutting down
+2022/10/08 00:36:05 [notice] 55#55: exiting
+2022/10/08 00:36:05 [notice] 54#54: gracefully shutting down
+2022/10/08 00:36:05 [notice] 56#56: gracefully shutting down
+2022/10/08 00:36:05 [notice] 57#57: gracefully shutting down
+2022/10/08 00:36:05 [notice] 50#50: exiting
+2022/10/08 00:36:05 [notice] 51#51: exiting
+2022/10/08 00:36:05 [notice] 52#52: exiting
+2022/10/08 00:36:05 [notice] 53#53: exiting
+2022/10/08 00:36:05 [notice] 55#55: exit
+2022/10/08 00:36:05 [notice] 54#54: exiting
+2022/10/08 00:36:05 [notice] 56#56: exiting
+2022/10/08 00:36:05 [notice] 57#57: exiting
+2022/10/08 00:36:05 [notice] 50#50: exit
+2022/10/08 00:36:05 [notice] 51#51: exit
+2022/10/08 00:36:05 [notice] 52#52: exit
+2022/10/08 00:36:05 [notice] 53#53: exit
+2022/10/08 00:36:05 [notice] 54#54: exit
+2022/10/08 00:36:05 [notice] 56#56: exit
+2022/10/08 00:36:05 [notice] 57#57: exit
+2022/10/08 00:36:05 [notice] 1#1: signal 17 (SIGCHLD) received from 55
+2022/10/08 00:36:05 [notice] 1#1: worker process 50 exited with code 0
+2022/10/08 00:36:05 [notice] 1#1: worker process 55 exited with code 0
+2022/10/08 00:36:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:36:05 [notice] 1#1: signal 17 (SIGCHLD) received from 50
+2022/10/08 00:36:05 [notice] 1#1: signal 17 (SIGCHLD) received from 53
+2022/10/08 00:36:05 [notice] 1#1: worker process 53 exited with code 0
+2022/10/08 00:36:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:36:05 [notice] 1#1: signal 17 (SIGCHLD) received from 56
+2022/10/08 00:36:05 [notice] 1#1: worker process 56 exited with code 0
+2022/10/08 00:36:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:36:05 [notice] 1#1: signal 17 (SIGCHLD) received from 51
+2022/10/08 00:36:05 [notice] 1#1: worker process 51 exited with code 0
+2022/10/08 00:36:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:36:05 [notice] 1#1: signal 17 (SIGCHLD) received from 54
+2022/10/08 00:36:05 [notice] 1#1: worker process 52 exited with code 0
+2022/10/08 00:36:05 [notice] 1#1: worker process 54 exited with code 0
+2022/10/08 00:36:05 [notice] 1#1: worker process 57 exited with code 0
+2022/10/08 00:36:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:36:05 [notice] 1#1: signal 17 (SIGCHLD) received from 57
+2022/10/08 00:37:37 [notice] 68#68: signal process started
+2022/10/08 00:37:37 [notice] 1#1: signal 1 (SIGHUP) received from 68, reconfiguring
+2022/10/08 00:37:37 [notice] 1#1: reconfiguring
+2022/10/08 00:37:37 [notice] 1#1: using the "epoll" event method
+2022/10/08 00:37:37 [notice] 1#1: start worker processes
+2022/10/08 00:37:37 [notice] 1#1: start worker process 69
+2022/10/08 00:37:37 [notice] 1#1: start worker process 70
+2022/10/08 00:37:37 [notice] 1#1: start worker process 71
+2022/10/08 00:37:37 [notice] 1#1: start worker process 72
+2022/10/08 00:37:37 [notice] 1#1: start worker process 73
+2022/10/08 00:37:37 [notice] 1#1: start worker process 74
+2022/10/08 00:37:37 [notice] 1#1: start worker process 75
+2022/10/08 00:37:37 [notice] 1#1: start worker process 76
+2022/10/08 00:37:37 [notice] 59#59: gracefully shutting down
+2022/10/08 00:37:37 [notice] 60#60: gracefully shutting down
+2022/10/08 00:37:37 [notice] 60#60: exiting
+2022/10/08 00:37:37 [notice] 62#62: gracefully shutting down
+2022/10/08 00:37:37 [notice] 62#62: exiting
+2022/10/08 00:37:37 [notice] 63#63: gracefully shutting down
+2022/10/08 00:37:37 [notice] 61#61: gracefully shutting down
+2022/10/08 00:37:37 [notice] 61#61: exiting
+2022/10/08 00:37:37 [notice] 65#65: gracefully shutting down
+2022/10/08 00:37:37 [notice] 66#66: gracefully shutting down
+2022/10/08 00:37:37 [notice] 64#64: gracefully shutting down
+2022/10/08 00:37:37 [notice] 59#59: exiting
+2022/10/08 00:37:37 [notice] 60#60: exit
+2022/10/08 00:37:37 [notice] 62#62: exit
+2022/10/08 00:37:37 [notice] 63#63: exiting
+2022/10/08 00:37:37 [notice] 61#61: exit
+2022/10/08 00:37:37 [notice] 65#65: exiting
+2022/10/08 00:37:37 [notice] 66#66: exiting
+2022/10/08 00:37:37 [notice] 64#64: exiting
+2022/10/08 00:37:37 [notice] 59#59: exit
+2022/10/08 00:37:37 [notice] 63#63: exit
+2022/10/08 00:37:37 [notice] 65#65: exit
+2022/10/08 00:37:37 [notice] 66#66: exit
+2022/10/08 00:37:37 [notice] 64#64: exit
+2022/10/08 00:37:37 [notice] 1#1: signal 17 (SIGCHLD) received from 65
+2022/10/08 00:37:37 [notice] 1#1: worker process 62 exited with code 0
+2022/10/08 00:37:37 [notice] 1#1: worker process 64 exited with code 0
+2022/10/08 00:37:37 [notice] 1#1: worker process 65 exited with code 0
+2022/10/08 00:37:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:37:37 [notice] 1#1: signal 17 (SIGCHLD) received from 66
+2022/10/08 00:37:37 [notice] 1#1: worker process 59 exited with code 0
+2022/10/08 00:37:37 [notice] 1#1: worker process 63 exited with code 0
+2022/10/08 00:37:37 [notice] 1#1: worker process 66 exited with code 0
+2022/10/08 00:37:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:37:37 [notice] 1#1: signal 17 (SIGCHLD) received from 60
+2022/10/08 00:37:37 [notice] 1#1: worker process 60 exited with code 0
+2022/10/08 00:37:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:37:37 [notice] 1#1: signal 17 (SIGCHLD) received from 61
+2022/10/08 00:37:37 [notice] 1#1: worker process 61 exited with code 0
+2022/10/08 00:37:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:37:53 [error] 69#69: *11 directory index of "/var/www/public_html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/08 00:38:08 [error] 69#69: *11 directory index of "/var/www/public_html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/08 00:38:09 [error] 69#69: *11 directory index of "/var/www/public_html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/08 00:38:09 [error] 69#69: *11 directory index of "/var/www/public_html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/08 00:38:10 [error] 69#69: *11 directory index of "/var/www/public_html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/08 00:38:10 [error] 69#69: *11 directory index of "/var/www/public_html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/08 00:38:10 [error] 69#69: *11 directory index of "/var/www/public_html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/08 00:39:51 [error] 69#69: *18 directory index of "/var/www/public_html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/08 00:39:52 [error] 69#69: *18 directory index of "/var/www/public_html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/08 00:39:52 [error] 69#69: *18 directory index of "/var/www/public_html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/08 00:40:37 [notice] 86#86: signal process started
+2022/10/08 00:40:37 [notice] 1#1: signal 1 (SIGHUP) received from 86, reconfiguring
+2022/10/08 00:40:37 [notice] 1#1: reconfiguring
+2022/10/08 00:40:37 [notice] 1#1: using the "epoll" event method
+2022/10/08 00:40:37 [notice] 1#1: start worker processes
+2022/10/08 00:40:37 [notice] 1#1: start worker process 87
+2022/10/08 00:40:37 [notice] 1#1: start worker process 88
+2022/10/08 00:40:37 [notice] 1#1: start worker process 89
+2022/10/08 00:40:37 [notice] 1#1: start worker process 90
+2022/10/08 00:40:37 [notice] 1#1: start worker process 91
+2022/10/08 00:40:37 [notice] 1#1: start worker process 92
+2022/10/08 00:40:37 [notice] 1#1: start worker process 93
+2022/10/08 00:40:37 [notice] 1#1: start worker process 94
+2022/10/08 00:40:37 [notice] 70#70: gracefully shutting down
+2022/10/08 00:40:37 [notice] 69#69: gracefully shutting down
+2022/10/08 00:40:37 [notice] 72#72: gracefully shutting down
+2022/10/08 00:40:37 [notice] 71#71: gracefully shutting down
+2022/10/08 00:40:37 [notice] 73#73: gracefully shutting down
+2022/10/08 00:40:37 [notice] 74#74: gracefully shutting down
+2022/10/08 00:40:37 [notice] 74#74: exiting
+2022/10/08 00:40:37 [notice] 75#75: gracefully shutting down
+2022/10/08 00:40:37 [notice] 76#76: gracefully shutting down
+2022/10/08 00:40:37 [notice] 70#70: exiting
+2022/10/08 00:40:37 [notice] 72#72: exiting
+2022/10/08 00:40:37 [notice] 71#71: exiting
+2022/10/08 00:40:37 [notice] 73#73: exiting
+2022/10/08 00:40:37 [notice] 74#74: exit
+2022/10/08 00:40:37 [notice] 75#75: exiting
+2022/10/08 00:40:37 [notice] 76#76: exiting
+2022/10/08 00:40:37 [notice] 70#70: exit
+2022/10/08 00:40:37 [notice] 72#72: exit
+2022/10/08 00:40:37 [notice] 71#71: exit
+2022/10/08 00:40:37 [notice] 73#73: exit
+2022/10/08 00:40:37 [notice] 75#75: exit
+2022/10/08 00:40:37 [notice] 76#76: exit
+2022/10/08 00:40:37 [notice] 1#1: signal 17 (SIGCHLD) received from 75
+2022/10/08 00:40:37 [notice] 1#1: worker process 70 exited with code 0
+2022/10/08 00:40:37 [notice] 1#1: worker process 72 exited with code 0
+2022/10/08 00:40:37 [notice] 1#1: worker process 73 exited with code 0
+2022/10/08 00:40:37 [notice] 1#1: worker process 74 exited with code 0
+2022/10/08 00:40:37 [notice] 1#1: worker process 75 exited with code 0
+2022/10/08 00:40:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:40:37 [notice] 1#1: signal 17 (SIGCHLD) received from 76
+2022/10/08 00:40:37 [notice] 1#1: worker process 71 exited with code 0
+2022/10/08 00:40:37 [notice] 1#1: worker process 76 exited with code 0
+2022/10/08 00:40:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:40:37 [notice] 1#1: signal 17 (SIGCHLD) received from 71
+2022/10/08 00:40:43 [error] 69#69: *19 directory index of "/var/www/public_html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/08 00:40:43 [notice] 69#69: exiting
+2022/10/08 00:40:43 [notice] 69#69: exit
+2022/10/08 00:40:43 [notice] 1#1: signal 17 (SIGCHLD) received from 69
+2022/10/08 00:40:43 [notice] 1#1: worker process 69 exited with code 0
+2022/10/08 00:40:43 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:40:44 [error] 87#87: *20 directory index of "/var/www/public_html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:18080"
+2022/10/08 00:50:50 [notice] 108#108: signal process started
+2022/10/08 00:50:50 [notice] 1#1: signal 1 (SIGHUP) received from 108, reconfiguring
+2022/10/08 00:50:50 [notice] 1#1: reconfiguring
+2022/10/08 00:50:50 [notice] 1#1: using the "epoll" event method
+2022/10/08 00:50:50 [notice] 1#1: start worker processes
+2022/10/08 00:50:50 [notice] 1#1: start worker process 109
+2022/10/08 00:50:50 [notice] 1#1: start worker process 110
+2022/10/08 00:50:50 [notice] 1#1: start worker process 111
+2022/10/08 00:50:50 [notice] 1#1: start worker process 112
+2022/10/08 00:50:50 [notice] 1#1: start worker process 113
+2022/10/08 00:50:50 [notice] 1#1: start worker process 114
+2022/10/08 00:50:50 [notice] 1#1: start worker process 115
+2022/10/08 00:50:50 [notice] 1#1: start worker process 116
+2022/10/08 00:50:51 [notice] 87#87: gracefully shutting down
+2022/10/08 00:50:51 [notice] 87#87: exiting
+2022/10/08 00:50:51 [notice] 88#88: gracefully shutting down
+2022/10/08 00:50:51 [notice] 89#89: gracefully shutting down
+2022/10/08 00:50:51 [notice] 90#90: gracefully shutting down
+2022/10/08 00:50:51 [notice] 91#91: gracefully shutting down
+2022/10/08 00:50:51 [notice] 92#92: gracefully shutting down
+2022/10/08 00:50:51 [notice] 94#94: gracefully shutting down
+2022/10/08 00:50:51 [notice] 94#94: exiting
+2022/10/08 00:50:51 [notice] 93#93: gracefully shutting down
+2022/10/08 00:50:51 [notice] 87#87: exit
+2022/10/08 00:50:51 [notice] 88#88: exiting
+2022/10/08 00:50:51 [notice] 89#89: exiting
+2022/10/08 00:50:51 [notice] 90#90: exiting
+2022/10/08 00:50:51 [notice] 91#91: exiting
+2022/10/08 00:50:51 [notice] 92#92: exiting
+2022/10/08 00:50:51 [notice] 94#94: exit
+2022/10/08 00:50:51 [notice] 93#93: exiting
+2022/10/08 00:50:51 [notice] 88#88: exit
+2022/10/08 00:50:51 [notice] 89#89: exit
+2022/10/08 00:50:51 [notice] 90#90: exit
+2022/10/08 00:50:51 [notice] 91#91: exit
+2022/10/08 00:50:51 [notice] 92#92: exit
+2022/10/08 00:50:51 [notice] 93#93: exit
+2022/10/08 00:50:51 [notice] 1#1: signal 17 (SIGCHLD) received from 91
+2022/10/08 00:50:51 [notice] 1#1: worker process 87 exited with code 0
+2022/10/08 00:50:51 [notice] 1#1: worker process 88 exited with code 0
+2022/10/08 00:50:51 [notice] 1#1: worker process 91 exited with code 0
+2022/10/08 00:50:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:50:51 [notice] 1#1: signal 17 (SIGCHLD) received from 87
+2022/10/08 00:50:51 [notice] 1#1: signal 17 (SIGCHLD) received from 89
+2022/10/08 00:50:51 [notice] 1#1: worker process 89 exited with code 0
+2022/10/08 00:50:51 [notice] 1#1: worker process 90 exited with code 0
+2022/10/08 00:50:51 [notice] 1#1: worker process 93 exited with code 0
+2022/10/08 00:50:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:50:51 [notice] 1#1: signal 17 (SIGCHLD) received from 94
+2022/10/08 00:50:51 [notice] 1#1: worker process 94 exited with code 0
+2022/10/08 00:50:51 [notice] 1#1: worker process 92 exited with code 0
+2022/10/08 00:50:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 00:50:51 [notice] 1#1: signal 17 (SIGCHLD) received from 92
+2022/10/08 01:05:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/08 01:05:10 [notice] 109#109: gracefully shutting down
+2022/10/08 01:05:10 [notice] 116#116: gracefully shutting down
+2022/10/08 01:05:10 [notice] 110#110: gracefully shutting down
+2022/10/08 01:05:10 [notice] 111#111: gracefully shutting down
+2022/10/08 01:05:10 [notice] 112#112: gracefully shutting down
+2022/10/08 01:05:10 [notice] 114#114: gracefully shutting down
+2022/10/08 01:05:10 [notice] 113#113: gracefully shutting down
+2022/10/08 01:05:10 [notice] 115#115: gracefully shutting down
+2022/10/08 01:05:10 [notice] 109#109: exiting
+2022/10/08 01:05:10 [notice] 116#116: exiting
+2022/10/08 01:05:10 [notice] 110#110: exiting
+2022/10/08 01:05:10 [notice] 116#116: exit
+2022/10/08 01:05:10 [notice] 111#111: exiting
+2022/10/08 01:05:10 [notice] 112#112: exiting
+2022/10/08 01:05:10 [notice] 114#114: exiting
+2022/10/08 01:05:10 [notice] 113#113: exiting
+2022/10/08 01:05:10 [notice] 115#115: exiting
+2022/10/08 01:05:10 [notice] 109#109: exit
+2022/10/08 01:05:10 [notice] 110#110: exit
+2022/10/08 01:05:10 [notice] 111#111: exit
+2022/10/08 01:05:10 [notice] 112#112: exit
+2022/10/08 01:05:10 [notice] 114#114: exit
+2022/10/08 01:05:10 [notice] 113#113: exit
+2022/10/08 01:05:10 [notice] 115#115: exit
+2022/10/08 01:05:10 [notice] 1#1: signal 17 (SIGCHLD) received from 115
+2022/10/08 01:05:10 [notice] 1#1: worker process 111 exited with code 0
+2022/10/08 01:05:10 [notice] 1#1: worker process 115 exited with code 0
+2022/10/08 01:05:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 01:05:10 [notice] 1#1: signal 17 (SIGCHLD) received from 111
+2022/10/08 01:05:10 [notice] 1#1: signal 17 (SIGCHLD) received from 113
+2022/10/08 01:05:10 [notice] 1#1: worker process 109 exited with code 0
+2022/10/08 01:05:10 [notice] 1#1: worker process 113 exited with code 0
+2022/10/08 01:05:10 [notice] 1#1: worker process 114 exited with code 0
+2022/10/08 01:05:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 01:05:10 [notice] 1#1: signal 17 (SIGCHLD) received from 112
+2022/10/08 01:05:10 [notice] 1#1: worker process 112 exited with code 0
+2022/10/08 01:05:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 01:05:10 [notice] 1#1: signal 17 (SIGCHLD) received from 110
+2022/10/08 01:05:10 [notice] 1#1: worker process 110 exited with code 0
+2022/10/08 01:05:10 [notice] 1#1: worker process 116 exited with code 0
+2022/10/08 01:05:10 [notice] 1#1: exit
+2022/10/08 01:05:26 [notice] 1#1: using the "epoll" event method
+2022/10/08 01:05:26 [notice] 1#1: nginx/1.20.2
+2022/10/08 01:05:26 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/10/08 01:05:26 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/10/08 01:05:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/08 01:05:26 [notice] 1#1: start worker processes
+2022/10/08 01:05:26 [notice] 1#1: start worker process 31
+2022/10/08 01:05:26 [notice] 1#1: start worker process 32
+2022/10/08 01:05:26 [notice] 1#1: start worker process 33
+2022/10/08 01:05:26 [notice] 1#1: start worker process 34
+2022/10/08 01:05:26 [notice] 1#1: start worker process 35
+2022/10/08 01:05:26 [notice] 1#1: start worker process 36
+2022/10/08 01:05:26 [notice] 1#1: start worker process 37
+2022/10/08 01:05:26 [notice] 1#1: start worker process 38
+2022/10/08 01:11:01 [error] 31#31: *3 directory index of "/var/www/public_html/appli/" is forbidden, client: 172.19.0.1, server: sklara, request: "GET /appli/ HTTP/1.1", host: "localhost:18080"
+2022/10/08 01:13:20 [error] 31#31: *6 directory index of "/var/www/public_html/appli/" is forbidden, client: 172.19.0.1, server: sklara, request: "GET /appli/ HTTP/1.1", host: "localhost:18080"
+2022/10/08 01:14:41 [error] 31#31: *8 directory index of "/var/www/public_html/appli/" is forbidden, client: 172.19.0.1, server: sklara, request: "GET /appli/ HTTP/1.1", host: "localhost:18080"
+2022/10/08 01:14:42 [error] 31#31: *8 directory index of "/var/www/public_html/appli/" is forbidden, client: 172.19.0.1, server: sklara, request: "GET /appli/ HTTP/1.1", host: "localhost:18080"
+2022/10/08 01:14:42 [error] 31#31: *8 directory index of "/var/www/public_html/appli/" is forbidden, client: 172.19.0.1, server: sklara, request: "GET /appli/ HTTP/1.1", host: "localhost:18080"
+2022/10/08 01:14:43 [error] 31#31: *8 directory index of "/var/www/public_html/appli/" is forbidden, client: 172.19.0.1, server: sklara, request: "GET /appli/ HTTP/1.1", host: "localhost:18080"
+2022/10/08 01:14:43 [error] 31#31: *8 directory index of "/var/www/public_html/appli/" is forbidden, client: 172.19.0.1, server: sklara, request: "GET /appli/ HTTP/1.1", host: "localhost:18080"
+2022/10/08 01:14:43 [error] 31#31: *8 directory index of "/var/www/public_html/appli/" is forbidden, client: 172.19.0.1, server: sklara, request: "GET /appli/ HTTP/1.1", host: "localhost:18080"
+2022/10/08 01:15:08 [error] 31#31: *8 directory index of "/var/www/public_html/appli/" is forbidden, client: 172.19.0.1, server: sklara, request: "GET /appli/ HTTP/1.1", host: "localhost:18080"
+2022/10/08 01:15:10 [error] 31#31: *8 directory index of "/var/www/public_html/appli/" is forbidden, client: 172.19.0.1, server: sklara, request: "GET /appli/ HTTP/1.1", host: "localhost:18080"
+2022/10/08 01:15:10 [error] 31#31: *8 directory index of "/var/www/public_html/appli/" is forbidden, client: 172.19.0.1, server: sklara, request: "GET /appli/ HTTP/1.1", host: "localhost:18080"
+2022/10/08 01:15:10 [error] 31#31: *8 directory index of "/var/www/public_html/appli/" is forbidden, client: 172.19.0.1, server: sklara, request: "GET /appli/ HTTP/1.1", host: "localhost:18080"
+2022/10/08 01:29:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/08 01:29:18 [notice] 31#31: gracefully shutting down
+2022/10/08 01:29:18 [notice] 36#36: gracefully shutting down
+2022/10/08 01:29:18 [notice] 35#35: gracefully shutting down
+2022/10/08 01:29:18 [notice] 32#32: gracefully shutting down
+2022/10/08 01:29:18 [notice] 37#37: gracefully shutting down
+2022/10/08 01:29:18 [notice] 38#38: gracefully shutting down
+2022/10/08 01:29:18 [notice] 34#34: gracefully shutting down
+2022/10/08 01:29:18 [notice] 33#33: gracefully shutting down
+2022/10/08 01:29:18 [notice] 31#31: exiting
+2022/10/08 01:29:18 [notice] 36#36: exiting
+2022/10/08 01:29:18 [notice] 35#35: exiting
+2022/10/08 01:29:18 [notice] 32#32: exiting
+2022/10/08 01:29:18 [notice] 37#37: exiting
+2022/10/08 01:29:18 [notice] 38#38: exiting
+2022/10/08 01:29:18 [notice] 34#34: exiting
+2022/10/08 01:29:18 [notice] 33#33: exiting
+2022/10/08 01:29:18 [notice] 31#31: exit
+2022/10/08 01:29:18 [notice] 36#36: exit
+2022/10/08 01:29:18 [notice] 35#35: exit
+2022/10/08 01:29:18 [notice] 32#32: exit
+2022/10/08 01:29:18 [notice] 37#37: exit
+2022/10/08 01:29:18 [notice] 38#38: exit
+2022/10/08 01:29:18 [notice] 34#34: exit
+2022/10/08 01:29:18 [notice] 33#33: exit
+2022/10/08 01:29:18 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/10/08 01:29:18 [notice] 1#1: worker process 31 exited with code 0
+2022/10/08 01:29:18 [notice] 1#1: worker process 32 exited with code 0
+2022/10/08 01:29:18 [notice] 1#1: worker process 33 exited with code 0
+2022/10/08 01:29:18 [notice] 1#1: worker process 35 exited with code 0
+2022/10/08 01:29:18 [notice] 1#1: worker process 36 exited with code 0
+2022/10/08 01:29:18 [notice] 1#1: worker process 37 exited with code 0
+2022/10/08 01:29:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 01:29:18 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/10/08 01:29:18 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/10/08 01:29:18 [notice] 1#1: worker process 38 exited with code 0
+2022/10/08 01:29:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 01:29:18 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/10/08 01:29:18 [notice] 1#1: worker process 34 exited with code 0
+2022/10/08 01:29:18 [notice] 1#1: exit
+2022/10/08 01:31:26 [notice] 1#1: using the "epoll" event method
+2022/10/08 01:31:26 [notice] 1#1: nginx/1.20.2
+2022/10/08 01:31:26 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/10/08 01:31:26 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/10/08 01:31:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/08 01:31:26 [notice] 1#1: start worker processes
+2022/10/08 01:31:26 [notice] 1#1: start worker process 31
+2022/10/08 01:31:26 [notice] 1#1: start worker process 32
+2022/10/08 01:31:26 [notice] 1#1: start worker process 33
+2022/10/08 01:31:26 [notice] 1#1: start worker process 34
+2022/10/08 01:31:26 [notice] 1#1: start worker process 35
+2022/10/08 01:31:26 [notice] 1#1: start worker process 36
+2022/10/08 01:31:26 [notice] 1#1: start worker process 37
+2022/10/08 01:31:26 [notice] 1#1: start worker process 38
+2022/10/08 01:34:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/08 01:34:33 [notice] 31#31: gracefully shutting down
+2022/10/08 01:34:33 [notice] 32#32: gracefully shutting down
+2022/10/08 01:34:33 [notice] 33#33: gracefully shutting down
+2022/10/08 01:34:33 [notice] 34#34: gracefully shutting down
+2022/10/08 01:34:33 [notice] 35#35: gracefully shutting down
+2022/10/08 01:34:33 [notice] 36#36: gracefully shutting down
+2022/10/08 01:34:33 [notice] 37#37: gracefully shutting down
+2022/10/08 01:34:33 [notice] 38#38: gracefully shutting down
+2022/10/08 01:34:33 [notice] 31#31: exiting
+2022/10/08 01:34:33 [notice] 32#32: exiting
+2022/10/08 01:34:33 [notice] 33#33: exiting
+2022/10/08 01:34:33 [notice] 34#34: exiting
+2022/10/08 01:34:33 [notice] 35#35: exiting
+2022/10/08 01:34:33 [notice] 36#36: exiting
+2022/10/08 01:34:33 [notice] 37#37: exiting
+2022/10/08 01:34:33 [notice] 38#38: exiting
+2022/10/08 01:34:33 [notice] 31#31: exit
+2022/10/08 01:34:33 [notice] 32#32: exit
+2022/10/08 01:34:33 [notice] 33#33: exit
+2022/10/08 01:34:33 [notice] 34#34: exit
+2022/10/08 01:34:33 [notice] 35#35: exit
+2022/10/08 01:34:33 [notice] 36#36: exit
+2022/10/08 01:34:33 [notice] 37#37: exit
+2022/10/08 01:34:33 [notice] 38#38: exit
+2022/10/08 01:34:33 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/10/08 01:34:33 [notice] 1#1: worker process 33 exited with code 0
+2022/10/08 01:34:33 [notice] 1#1: worker process 37 exited with code 0
+2022/10/08 01:34:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 01:34:33 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/10/08 01:34:33 [notice] 1#1: worker process 31 exited with code 0
+2022/10/08 01:34:33 [notice] 1#1: worker process 32 exited with code 0
+2022/10/08 01:34:33 [notice] 1#1: worker process 34 exited with code 0
+2022/10/08 01:34:33 [notice] 1#1: worker process 36 exited with code 0
+2022/10/08 01:34:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 01:34:33 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/10/08 01:34:33 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/10/08 01:34:33 [notice] 1#1: worker process 38 exited with code 0
+2022/10/08 01:34:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 01:34:33 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/10/08 01:34:33 [notice] 1#1: worker process 35 exited with code 0
+2022/10/08 01:34:33 [notice] 1#1: exit
+2022/10/08 01:36:48 [notice] 1#1: using the "epoll" event method
+2022/10/08 01:36:48 [notice] 1#1: nginx/1.20.2
+2022/10/08 01:36:48 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/10/08 01:36:48 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/10/08 01:36:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/08 01:36:48 [notice] 1#1: start worker processes
+2022/10/08 01:36:48 [notice] 1#1: start worker process 31
+2022/10/08 01:36:48 [notice] 1#1: start worker process 32
+2022/10/08 01:36:48 [notice] 1#1: start worker process 33
+2022/10/08 01:36:48 [notice] 1#1: start worker process 34
+2022/10/08 01:36:48 [notice] 1#1: start worker process 35
+2022/10/08 01:36:48 [notice] 1#1: start worker process 36
+2022/10/08 01:36:48 [notice] 1#1: start worker process 37
+2022/10/08 01:36:48 [notice] 1#1: start worker process 38
+2022/10/08 01:42:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/08 01:42:48 [notice] 31#31: gracefully shutting down
+2022/10/08 01:42:48 [notice] 32#32: gracefully shutting down
+2022/10/08 01:42:48 [notice] 34#34: gracefully shutting down
+2022/10/08 01:42:48 [notice] 33#33: gracefully shutting down
+2022/10/08 01:42:48 [notice] 35#35: gracefully shutting down
+2022/10/08 01:42:48 [notice] 36#36: gracefully shutting down
+2022/10/08 01:42:48 [notice] 37#37: gracefully shutting down
+2022/10/08 01:42:48 [notice] 38#38: gracefully shutting down
+2022/10/08 01:42:48 [notice] 31#31: exiting
+2022/10/08 01:42:48 [notice] 32#32: exiting
+2022/10/08 01:42:48 [notice] 34#34: exiting
+2022/10/08 01:42:48 [notice] 33#33: exiting
+2022/10/08 01:42:48 [notice] 35#35: exiting
+2022/10/08 01:42:48 [notice] 36#36: exiting
+2022/10/08 01:42:48 [notice] 37#37: exiting
+2022/10/08 01:42:48 [notice] 38#38: exiting
+2022/10/08 01:42:48 [notice] 31#31: exit
+2022/10/08 01:42:48 [notice] 32#32: exit
+2022/10/08 01:42:48 [notice] 34#34: exit
+2022/10/08 01:42:48 [notice] 33#33: exit
+2022/10/08 01:42:48 [notice] 35#35: exit
+2022/10/08 01:42:48 [notice] 36#36: exit
+2022/10/08 01:42:48 [notice] 37#37: exit
+2022/10/08 01:42:48 [notice] 38#38: exit
+2022/10/08 01:42:49 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/10/08 01:42:49 [notice] 1#1: worker process 32 exited with code 0
+2022/10/08 01:42:49 [notice] 1#1: worker process 34 exited with code 0
+2022/10/08 01:42:49 [notice] 1#1: worker process 35 exited with code 0
+2022/10/08 01:42:49 [notice] 1#1: worker process 37 exited with code 0
+2022/10/08 01:42:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 01:42:49 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/10/08 01:42:49 [notice] 1#1: worker process 31 exited with code 0
+2022/10/08 01:42:49 [notice] 1#1: worker process 33 exited with code 0
+2022/10/08 01:42:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 01:42:49 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/10/08 01:42:49 [notice] 1#1: worker process 38 exited with code 0
+2022/10/08 01:42:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 01:42:49 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/10/08 01:42:49 [notice] 1#1: worker process 36 exited with code 0
+2022/10/08 01:42:49 [notice] 1#1: exit
+2022/10/08 14:54:07 [notice] 1#1: using the "epoll" event method
+2022/10/08 14:54:07 [notice] 1#1: nginx/1.20.2
+2022/10/08 14:54:07 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/10/08 14:54:07 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/10/08 14:54:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/08 14:54:07 [notice] 1#1: start worker processes
+2022/10/08 14:54:07 [notice] 1#1: start worker process 31
+2022/10/08 14:54:07 [notice] 1#1: start worker process 32
+2022/10/08 14:54:07 [notice] 1#1: start worker process 33
+2022/10/08 14:54:07 [notice] 1#1: start worker process 34
+2022/10/08 14:54:07 [notice] 1#1: start worker process 35
+2022/10/08 14:54:07 [notice] 1#1: start worker process 36
+2022/10/08 14:54:07 [notice] 1#1: start worker process 37
+2022/10/08 14:54:07 [notice] 1#1: start worker process 38
+2022/10/08 14:57:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/08 14:57:34 [notice] 31#31: gracefully shutting down
+2022/10/08 14:57:34 [notice] 33#33: gracefully shutting down
+2022/10/08 14:57:34 [notice] 34#34: gracefully shutting down
+2022/10/08 14:57:34 [notice] 32#32: gracefully shutting down
+2022/10/08 14:57:34 [notice] 35#35: gracefully shutting down
+2022/10/08 14:57:34 [notice] 36#36: gracefully shutting down
+2022/10/08 14:57:34 [notice] 36#36: exiting
+2022/10/08 14:57:34 [notice] 37#37: gracefully shutting down
+2022/10/08 14:57:34 [notice] 38#38: gracefully shutting down
+2022/10/08 14:57:34 [notice] 38#38: exiting
+2022/10/08 14:57:34 [notice] 33#33: exiting
+2022/10/08 14:57:34 [notice] 34#34: exiting
+2022/10/08 14:57:34 [notice] 32#32: exiting
+2022/10/08 14:57:34 [notice] 35#35: exiting
+2022/10/08 14:57:34 [notice] 36#36: exit
+2022/10/08 14:57:34 [notice] 37#37: exiting
+2022/10/08 14:57:34 [notice] 38#38: exit
+2022/10/08 14:57:34 [notice] 33#33: exit
+2022/10/08 14:57:34 [notice] 34#34: exit
+2022/10/08 14:57:34 [notice] 32#32: exit
+2022/10/08 14:57:34 [notice] 35#35: exit
+2022/10/08 14:57:34 [notice] 37#37: exit
+2022/10/08 14:57:35 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/10/08 14:57:35 [notice] 1#1: worker process 32 exited with code 0
+2022/10/08 14:57:35 [notice] 1#1: worker process 34 exited with code 0
+2022/10/08 14:57:35 [notice] 1#1: worker process 36 exited with code 0
+2022/10/08 14:57:35 [notice] 1#1: worker process 38 exited with code 0
+2022/10/08 14:57:35 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 14:57:35 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/10/08 14:57:35 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/10/08 14:57:35 [notice] 1#1: worker process 33 exited with code 0
+2022/10/08 14:57:35 [notice] 1#1: worker process 35 exited with code 0
+2022/10/08 14:57:35 [notice] 1#1: worker process 37 exited with code 0
+2022/10/08 14:57:35 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 14:57:35 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/10/08 15:02:40 [notice] 1#1: using the "epoll" event method
+2022/10/08 15:02:40 [notice] 1#1: nginx/1.20.2
+2022/10/08 15:02:40 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/10/08 15:02:40 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/10/08 15:02:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/08 15:02:40 [notice] 1#1: start worker processes
+2022/10/08 15:02:40 [notice] 1#1: start worker process 31
+2022/10/08 15:02:40 [notice] 1#1: start worker process 32
+2022/10/08 15:02:40 [notice] 1#1: start worker process 33
+2022/10/08 15:02:40 [notice] 1#1: start worker process 34
+2022/10/08 15:02:40 [notice] 1#1: start worker process 35
+2022/10/08 15:02:40 [notice] 1#1: start worker process 36
+2022/10/08 15:02:40 [notice] 1#1: start worker process 37
+2022/10/08 15:02:40 [notice] 1#1: start worker process 38
+2022/10/08 15:45:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/08 15:45:15 [notice] 31#31: gracefully shutting down
+2022/10/08 15:45:15 [notice] 32#32: gracefully shutting down
+2022/10/08 15:45:15 [notice] 33#33: gracefully shutting down
+2022/10/08 15:45:15 [notice] 34#34: gracefully shutting down
+2022/10/08 15:45:15 [notice] 35#35: gracefully shutting down
+2022/10/08 15:45:15 [notice] 35#35: exiting
+2022/10/08 15:45:15 [notice] 36#36: gracefully shutting down
+2022/10/08 15:45:15 [notice] 37#37: gracefully shutting down
+2022/10/08 15:45:15 [notice] 38#38: gracefully shutting down
+2022/10/08 15:45:15 [notice] 31#31: exiting
+2022/10/08 15:45:15 [notice] 32#32: exiting
+2022/10/08 15:45:15 [notice] 33#33: exiting
+2022/10/08 15:45:15 [notice] 34#34: exiting
+2022/10/08 15:45:15 [notice] 35#35: exit
+2022/10/08 15:45:15 [notice] 36#36: exiting
+2022/10/08 15:45:15 [notice] 37#37: exiting
+2022/10/08 15:45:15 [notice] 38#38: exiting
+2022/10/08 15:45:15 [notice] 31#31: exit
+2022/10/08 15:45:15 [notice] 32#32: exit
+2022/10/08 15:45:15 [notice] 33#33: exit
+2022/10/08 15:45:15 [notice] 34#34: exit
+2022/10/08 15:45:15 [notice] 36#36: exit
+2022/10/08 15:45:15 [notice] 37#37: exit
+2022/10/08 15:45:15 [notice] 38#38: exit
+2022/10/08 15:45:15 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/10/08 15:45:15 [notice] 1#1: worker process 35 exited with code 0
+2022/10/08 15:45:15 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 15:45:15 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/10/08 15:45:15 [notice] 1#1: worker process 31 exited with code 0
+2022/10/08 15:45:15 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/08 15:45:15 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/10/08 15:45:15 [notice] 1#1: worker process 32 exited with code 0
+2022/10/08 15:45:15 [notice] 1#1: worker process 33 exited with code 0
+2022/10/08 15:45:15 [notice] 1#1: worker process 34 exited with code 0
+2022/10/08 15:45:15 [notice] 1#1: worker process 36 exited with code 0
+2022/10/08 15:45:15 [notice] 1#1: worker process 37 exited with code 0
+2022/10/08 15:45:15 [notice] 1#1: worker process 38 exited with code 0
+2022/10/08 15:45:15 [notice] 1#1: exit
+2022/10/08 15:54:15 [notice] 1#1: using the "epoll" event method
+2022/10/08 15:54:15 [notice] 1#1: nginx/1.20.2
+2022/10/08 15:54:15 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/10/08 15:54:15 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/10/08 15:54:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/08 15:54:15 [notice] 1#1: start worker processes
+2022/10/08 15:54:15 [notice] 1#1: start worker process 31
+2022/10/08 15:54:15 [notice] 1#1: start worker process 32
+2022/10/08 15:54:15 [notice] 1#1: start worker process 33
+2022/10/08 15:54:15 [notice] 1#1: start worker process 34
+2022/10/08 15:54:15 [notice] 1#1: start worker process 35
+2022/10/08 15:54:15 [notice] 1#1: start worker process 36
+2022/10/08 15:54:15 [notice] 1#1: start worker process 37
+2022/10/08 15:54:15 [notice] 1#1: start worker process 38

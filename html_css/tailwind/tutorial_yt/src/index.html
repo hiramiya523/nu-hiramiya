@@ -28,8 +28,27 @@
             </div>
         </nav>
     </header>
-    <main class="bg-tutorial-bg min-h-screen">
-
+    <!-- config.js に利用する画像を追加してクラスとして利用できる。-->
+    <!-- 繰り返し表示の解除: bg-cover -->
+    <!-- 画像初期位置を中央に: bg-center -->
+    <!-- 画像を指定したサイズ(コンテナ)でのfit感を指定: object-cover -->
+    <main>
+        <div class="bg-tutorial-bg min-h-screen bg-cover bg-center object-cover">
+            <div>
+                <div>
+                    <!-- レスポンシブ設定: sm(640px)以上で7xl, 未満で5xl-->
+                    <h1 class="text-5xl sm:text-7xl">追い風を感じる🚀</h1>
+                    <p class="text-xl mb-10">
+                        TailWindCSSでCSSスタイリングを加速させる
+                    </p>
+                    <!-- px-6: padding left,rightに24px -->
+                    <!-- py-6: padding y軸に12px -->
+                    <!-- rounded-md: 枠線に丸みを持たせる -->
+                    <a href="" class="px-6 py-3 bg-blue-600 rounded-md text-white hover:">詳しく見る</a>
+                </div>
+                <div><img src="./img/tailwind-logo.png" alt=""></div>
+            </div>
+        </div>
     </main>
 </body>
 </html>

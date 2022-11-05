@@ -30,7 +30,13 @@ RUN mkdir -p /var/www/public_html/appli/storage/framework/cache/data && \
     mkdir -p /var/www/public_html/appli/storage/framework/sessions && \
     mkdir -p /var/www/public_html/appli/storage/framework/views && \
     mkdir -p /var/www/public_html/appli/storage/framework/testing && \
-    chmod -R 777 /var/www/public_html/appli/storage
+    chmod -R 707 /var/www/public_html/appli/storage
+
+# node
+RUN curl -fsSL https://deb.nodesource.com/setup_current.x | bash - && \
+    apt-get install -y nodejs && \
+    npm install -g yarn \
+        typescript
 
 # mailhog
 RUN curl -sSL https://github.com/mailhog/mhsendmail/releases/download/v0.2.0/mhsendmail_linux_amd64 -o mhsendmail \

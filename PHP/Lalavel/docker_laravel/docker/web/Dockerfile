@@ -6,7 +6,7 @@ ENV TZ Asia/Tokyo
 #     && apk add vim
 
 # 考察：rootユーザで動くnginxアプリのみ実行権限を与え、他はとりあえず読み書きだけにしている？
-RUN chmod 755 -R /root
+RUN chmod 705 -R /root
 
 # 空のファイルを送るとコンテナが落ちる
 COPY ./default.conf /etc/nginx/conf.d/default.conf

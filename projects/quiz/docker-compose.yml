@@ -1,36 +1,35 @@
 version: "3.9"
 services:
   app:
-    container_name: app_container
+    container_name: ${APP_NAME}_app
     build:
       context: ./docker/app
       dockerfile: Dockerfile
     volumes:
       - ./src:/var/www/public_html
-      # laravel 高速化. lravelプロジェクト作成後に有効化すること
-      # - /var/www/public_html/appli/storage/framework
-      # - /var/www/public_html/appli/vendor
+      # laravel 高速化
+      - /var/www/public_html/${APP_NAME}/storage/framework
+      - /var/www/public_html/${APP_NAME}/vendor
     expose:
       - 9000
     depends_on:
       - db 
 
   web:
-    container_name: web_container
+    container_name: ${APP_NAME}_web
     build:
       context: ./docker/web
       dockerfile: Dockerfile
     ports:
       - 18080:80
     depends_on:
-      - app # php-fpmをconfで実施しているため
+      - app
     volumes:
       - ./src:/var/www/public_html
       - ./docker/web/logs:/var/log/nginx/ 
 
   db:
-    container_name: db_container
-    restart: unless-stopped
+    container_name: ${APP_NAME}_db
     build:
       context: ./docker/db
       dockerfile: Dockerfile
@@ -43,15 +42,13 @@ services:
     volumes:
       - db_store:/var/lib/mysql
       - ./docker/db/initdb.d:/docker-entrypoint-initdb.d
-    # mysql8の認証プラグイン。この記述がないと弾かれる。(cnfに記載しているので今回は不要)
-    # command: --default-authentication-plugin=mysql_native_password
     ports:
       - 4306:3306
 
   mailhog:
     image: 
       mailhog/mailhog:latest
-    container_name: mail
+    container_name: ${APP_NAME}_mail
     ports:
       - 8025:8025
       - 1025:1025

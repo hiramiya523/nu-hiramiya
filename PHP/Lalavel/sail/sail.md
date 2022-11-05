@@ -42,6 +42,8 @@ alias sail="./vendor/bin/sail"
     sail test 
     ⇒全体実行ならできる
 
+    php artisan test
+
 # テストコードの書き方
 テストメソッドの先頭は「test」から始める
 

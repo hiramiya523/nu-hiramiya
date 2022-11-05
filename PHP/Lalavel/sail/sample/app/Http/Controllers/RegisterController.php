@@ -15,8 +15,8 @@ class RegisterController extends Controller
     public function store(Request $request){
         $request->validate([
             'name' => 'required|string|max:255',
-            'email' => 'required|sting|email|max:255|unique:users',
-            'password' => 'required|string|cofirmed|min:8'
+            'email' => 'required|string|email|max:255|unique:users',
+            'password' => 'required|string|confirmed|min:8'
         ]);
 
         $user = User::create([
@@ -25,6 +25,8 @@ class RegisterController extends Controller
             'password' => $request->password
         ]);
 
-        return view('regist.complete', compact($user));
+        // compact('user')
+        // ['user' => $user]を返している
+        return view('regist.complete', compact('user'));
     }
 }

@@ -16,20 +16,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/home', function(){
-    return view('home');
-});
-
-// 登録
-Route::get('/register', [App\Http\Controllers\RegisterController::class, 'create'])
-    ->middleware('guest')
-    ->name('register');
-    
-Route::post
-    ('/register', [App\Http\Controllers\RegisterController::class, 'store'])
-    ->middleware('guest');
-
-
-// ログイン
-// Route::get('/login', [App\HTTP\Controllers\Login]);

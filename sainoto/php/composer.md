@@ -3,9 +3,13 @@
 - composer install 
     package.jsonがないとインストールできないっぽい？
 
+- error？
+composer diag
 
 
 # install package
 - TCPDF
   composer require tecnickcom/tcpdf
 - Monologo
+
+

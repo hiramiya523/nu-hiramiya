@@ -52,3 +52,10 @@ sail artisan migrate
 
 # controller 作成
 sail artisan make:controller RegsterController
+
+
+
+# note
+- ユーザ認証
+SessionGuradと、TokenGuradについて
+https://re-engines.com/2020/11/30/laravel-authentication/

@@ -1,0 +1,22 @@
+<!-- 最上位の要素. langの指定で音声合成ツールや翻訳の利便性を向上 -->
+<html>
+    <head>
+        <title>タイトル。サイト名のみはやめて、わかりやすいものにしよう。</title>
+        <!-- ページに記載されたURLの起点となるURLや基準となる.  -->
+        <!-- 指定するhrefは絶対URL。指定がない場合、その文書自身のURIが基準となる。下みたいに狂ったパス入れると、相対パスで飛べなくなる。 -->
+        <!-- <base href="http://127.0.0.1:5500/aaa.html/bbb.html"> -->
+        <!-- リンクをどのタグで開かせるか、デフォルト指定できる。 -->
+        <base target="_blank">
+        <!-- <base target="_self"> -->
+    </head>
+</html>
+<body>
+    <a href="https://www.tohoho-web.com/html/base.htm">base targetによるリンク</a><br>
+    <!-- 上のとち狂ったbaseで、http://127.0.0.1:5500/aaa.html/test.htmlになる -->
+    <a href="test.html">baseの設定が狂っていると相対で飛べなくなるはず </a>
+
+    <br>
+
+    <!-- target parantで開く -->
+    <iframe src="test.html"><iframe/>
+</body>

@@ -1,0 +1,47 @@
+@startuml test
+hide circle
+skinparam linetype ortho
+
+entity "m_gigafile_info(ギガファイル情報)" as gigafile {
+    * <<PK>> i_request_cd : c_gs_file_name
+    --
+    * i_server_num  : INT    : サーバー番号
+    dt_created      : date      : 作成日時
+    dt_updated      : date      : 更新日時
+}
+
+entity "m_request_info(お問い合わせ情報)" as request {
+    * <<PK>> i_id_request
+    --
+    * <<U>> c_token : string : トークン
+    * c_police_station_name : string : 機関名
+    * c_postal_cd : string : 郵便番号
+    * i_prefecture_cd : string : 都道府県コード
+    * c_address : string : 市区町村以降
+    * c_branch_name : string : 部署名
+    * c_phone_num : string : 代表番号
+    * c_email : string : メールアドレス
+    * c_name : string : 担当者名
+    * c_inner_phone_num : string : 内線番号
+    * i_paper_flg : string : 文書での回答希望フラグ
+    * i_expired_time : string : お問い合わせ有効期限
+    * i_process_status : string : 進捗ステータス
+    * c_note : string : 備考
+    dt_created : date : 作成日時
+    dt_updated : date : 更新日時
+    dt_deleted : date : 削除日時
+    --
+    unique : c_token
+}
+
+entity "t_executor_info(スタッフ実行者)" as executor {
+    * <<PK>> i_request_cd : i_process_status
+    --
+    * c_staff_name : string : スタッフ名
+    dt_execute : date : 実行日時
+}
+
+request ||..|{ gigafile
+request ||..|{ executor
+
+@enduml

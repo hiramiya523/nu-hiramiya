@@ -1,0 +1,12 @@
+{
+    "name": "vendor/app",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\App\\": "src/"
+        }
+    },
+    "scripts": { "test": "vendor/bin/phpunit" },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

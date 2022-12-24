@@ -1,0 +1,4 @@
+*.code-workspace
+vendor
+*.log
+logs

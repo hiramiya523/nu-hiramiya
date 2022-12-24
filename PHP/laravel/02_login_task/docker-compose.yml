@@ -1,0 +1,47 @@
+version: "3.9"
+services:
+  app:
+    container_name: app_container
+    build:
+      context: ./docker/app
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/var/www/app
+    depends_on:
+      - db # アプリケーションはdbから値を取得するため。
+
+  web:
+    container_name: web_container
+    build:
+      context: ./docker/web
+      dockerfile: Dockerfile
+    ports:
+      - 18080:80
+    depends_on:
+      - app # php-fpmをconfで実施しているため
+    volumes:
+      - ./src:/app
+      - ./docker/web/logs:/var/log/nginx/ 
+
+  db:
+    container_name: db_container
+    restart: unless-stopped
+    build:
+      context: ./docker/db
+      dockerfile: Dockerfile
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_ROOT_PASSWORD=pass
+      - MYSQL_DATABASE=test
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=pass
+    volumes:
+      - db_store:/var/lib/mysql
+      - ./docker/db/initdb.d:/docker-entrypoint-initdb.d
+    # mysql8の認証プラグイン。この記述がないと弾かれる。(cnfに記載しているので今回は不要)
+    # command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - 4306:3306
+
+volumes:
+  db_store:

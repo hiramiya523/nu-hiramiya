@@ -13,3 +13,16 @@ cssフレームワーク
 
 # メリット
 クラス名を考える時間がなくなる
+
+
+# Dokcer 
+## image
+node:19.2-bullseye-slim
+
+## インストール
+-Dは`--save-dev`でローカルインストール
+```
+npm install -D tailwindcss
+npx tailwindcss init
+```
+

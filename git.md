@@ -8,5 +8,13 @@ git branch -M main
   git push -u origin main
     -u は --set-upstream
 
-# ssh接続
-git remote set-url origin git@github.com:takker99/dotfiles.git
+
+# 設定
+- 一覧確認
+git config -l
+
+- 設定変更
+git config --global user.email  hiramiya523@gmail.com
+git config --global user.name  hiramiya523
+
+

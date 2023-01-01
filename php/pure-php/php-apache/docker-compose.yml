@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  app:
+    container_name: ubuntu_server
+    hostname: www
+    build: 
+      context: docker/app
+      dockerfile: dockerfile-ubuntu
+      # args:build用変数, build配下
+      # args:
+      #   - HOSTNAME=${HOSTNAME}
+    tty: true
+    ports:
+      - 8580:80
+    volumes:
+      - ./src:/var/www/html
+    

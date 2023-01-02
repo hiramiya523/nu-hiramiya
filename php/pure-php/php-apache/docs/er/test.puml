@@ -1,0 +1,30 @@
+@startuml management system
+
+skinparam {
+   defaultFontName Noto Sans CJK JP Black
+ }
+
+entity "company master" {
+  + 会社ID [PK]
+  ==
+  会 社 名
+}
+
+entity "社員マスタ" {
+  + 社員ID [PK]
+  + 会社ID [FK(会社マスタ)]
+  ==
+  社員名
+  年齢
+  部署ID
+}
+
+entity "部署マスタ" {
+  + 部署ID
+  ==
+  部署名
+}
+
+会社マスタ |o--|{ 社員マスタ
+社員マスタ }|--|| 部署マスタ
+@enduml

@@ -15,4 +15,5 @@ services:
       - 8580:80
     volumes:
       - ./src:/var/www/html
+      - ./docker/app/:/docker-entrypoint-initdb.d/
     

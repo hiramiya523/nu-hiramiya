@@ -23,3 +23,38 @@ dot -V
 sudo apt install plantuml
  plantuml -printfonts | grep JP
  sudo apt install fonts-noto-cjk
+
+
+# Xdebug in VScode
+## 参考
+https://ichi-station.com/php-xdebug-vscode-docker/
+
+
+# docker php-apacheに、mysql
+- maria
+apt-cache show mariadb-server
+apt-get install -y mariadb-server
+
+- driver
+apt-cache search pdo
+apt search pdo
+
+apt install php-mysql
+
+
+apt-get install -y php-pdo
+apt-get install php8-mysql
+
+phpのモジュールが不足
+php -m | grep pdo
+
+
+- 起動
+service mariadb start
+
+
+## user作成、権限設定
+CREATE USER 'user'@'localhost' IDENTIFIED BY 'pass';
+GRANT ALL PRIVILEGES ON * . * TO 'user'@'localhost';
+-- reload
+FLUSH PRIVILEGES;
